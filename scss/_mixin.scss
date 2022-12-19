@@ -1,0 +1,6 @@
+@mixin infoData($textAlign, $margin1, $margin2, $black){
+    text-align: $textAlign;
+    margin: $margin1;
+    margin: $margin2;
+    color: $black;
+}

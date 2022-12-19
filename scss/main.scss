@@ -1,0 +1,11 @@
+@import "variable";
+@import "media";
+@import "swiper";
+@import "mixin";
+
+@include media(1400px);
+@include media (1200px);
+@include media (992px);
+@include media (768px);
+@include media (576px);
+@include media (575px);

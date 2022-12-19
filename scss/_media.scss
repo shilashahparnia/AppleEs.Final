@@ -1,0 +1,1263 @@
+$xxl: 1400px;
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+
+@mixin media($value) {
+  @if $value==$xxl {
+    @media screen and (min-width: $xxl) {
+      body {
+        > div.wrapper {
+          width: 100%;
+          //make menu
+          > div.menu {
+            width: 100%;
+            height: 44px;
+            background-color: #333333;
+            > nav {
+              width: inherit;
+              height: inherit;
+              > ul {
+                width: inherit;
+                height: inherit;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                gap: 0 40px;
+                > li {
+                  width: auto;
+                  height: inherit;
+                  > a {
+                    width: auto;
+                    height: inherit;
+                    line-height: 44px;
+                    text-decoration: none;
+                    color: $MenuColor;
+                    display: block;
+                    font-size: 14px;
+                    transition: 300ms;
+                    &:hover {
+                      color: white;
+                    }
+                    > img {
+                      filter: invert(30%);
+                      transition: 300ms;
+                      &:hover {
+                        filter: brightness(100%);
+                      }
+                    }
+                    > i {
+                      font-size: 15px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end menu
+          //ignore sMenu
+          div.sMenu {
+            display: none;
+          }
+          //make products swiper
+          > div.products {
+            width: 100%;
+            height: 230px;
+            margin-top: 50px;
+            padding: 40px;
+            > div.mySwiper {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    display: block;
+                    color: black;
+                    transition: 300ms;
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                    > div:nth-of-type(1) {
+                      display: flex;
+                      justify-content: center;
+                      width: inherit;
+                      height: 100px;
+                      > img {
+                        width: 150px;
+                      }
+                    }
+                    > div:nth-of-type(2) {
+                      width: inherit;
+                      height: 30px;
+                      margin-top: 10px;
+                      > p {
+                        font-weight: bold;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end products swiper
+          > div.title {
+            width: 88%;
+            height: 30px;
+            margin: 30px auto;
+            display: flex;
+            > h1:nth-last-of-type(1) {
+              color: grey;
+              padding-left: 10px;
+            }
+          }
+          //make new products//
+          > div.new {
+            width: 90%;
+            height: 550px;
+            margin: 0 auto;
+            padding: 5px;
+            margin-bottom: 20px;
+            > div.shila {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    width: inherit;
+                    height: auto;
+                    > div {
+                      width: inherit;
+                      height: inherit;
+                      position: relative;
+                      transition: 300ms;
+                      &:hover {
+                        position: absolute;
+                        top: 3px;
+                        left: 3px;
+                      }
+                      > img {
+                        border-radius: $Radius;
+                      }
+                      > div.text {
+                        width: inherit;
+                        height: 100px;
+                        position: absolute;
+                        top: 0;
+                        > h4 {
+                          @include infoData(left, 20px, 20px, black);
+                          text-transform: uppercase;
+                        }
+                        > h1 {
+                          @include infoData(left, 20px, 20px, black);
+                        }
+                        > h5 {
+                          @include infoData(left, 20px, 20px, black);
+                        }
+                        > h4.w {
+                          @include infoData(left, 20px, 20px, white);
+                          text-transform: uppercase;
+                        }
+                        > h1.w {
+                          @include infoData(left, 20px, 20px, white);
+                        }
+                        > h5.w {
+                          @include infoData(left, 20px, 20px, white);
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end new products
+        }
+      }
+    }
+  } @else if $value==$xl {
+    @media screen and (min-width: 1200px) and (max-width: 1400px) {
+      body {
+        > div.wrapper {
+          width: 100%;
+          //make menu
+          > div.menu {
+            width: 100%;
+            height: 44px;
+            background-color: #333333;
+            > nav {
+              width: inherit;
+              height: inherit;
+              > ul {
+                width: inherit;
+                height: inherit;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                gap: 0 40px;
+                > li {
+                  width: auto;
+                  height: inherit;
+                  > a {
+                    width: auto;
+                    height: inherit;
+                    line-height: 44px;
+                    text-decoration: none;
+                    color: $MenuColor;
+                    display: block;
+                    font-size: 14px;
+                    transition: 300ms;
+                    &:hover {
+                      color: white;
+                    }
+                    > img {
+                      filter: invert(30%);
+                      transition: 300ms;
+                      &:hover {
+                        filter: brightness(100%);
+                      }
+                    }
+                    > i {
+                      font-size: 15px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end menu
+          //ignore sMenu
+          div.sMenu {
+            display: none;
+          }
+          //make products swiper
+          > div.products {
+            width: 100%;
+            height: 230px;
+            margin-top: 50px;
+            padding: 40px;
+            > div.mySwiper {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    display: block;
+                    color: black;
+                    transition: 300ms;
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                    > div:nth-of-type(1) {
+                      display: flex;
+                      justify-content: center;
+                      width: inherit;
+                      height: 100px;
+                      > img {
+                        width: 150px;
+                      }
+                    }
+                    > div:nth-of-type(2) {
+                      width: inherit;
+                      height: 30px;
+                      margin-top: 10px;
+                      > p {
+                        font-weight: bold;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end products swiper
+          > div.title {
+            width: 88%;
+            height: 30px;
+            margin: 30px auto;
+            display: flex;
+            > h1:nth-last-of-type(1) {
+              color: grey;
+              padding-left: 10px;
+            }
+          }
+          //make new products//
+          > div.new {
+            width: 90%;
+            height: 550px;
+            margin: 0 auto;
+            padding: 5px;
+            margin-bottom: 20px;
+            > div.shila {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    width: inherit;
+                    height: auto;
+                    > div {
+                      width: inherit;
+                      height: inherit;
+                      position: relative;
+                      transition: 300ms;
+                      &:hover {
+                        position: absolute;
+                        top: 3px;
+                        left: 3px;
+                      }
+                      > img {
+                        border-radius: $Radius;
+                      }
+                      > div.text {
+                        width: inherit;
+                        height: 100px;
+                        position: absolute;
+                        top: 0;
+                        > h4 {
+                          @include infoData(left, 20px, 20px, black);
+                          text-transform: uppercase;
+                        }
+                        > h1 {
+                          @include infoData(left, 20px, 20px, black);
+                          font-size: 22px;
+                        }
+                        > h5 {
+                          @include infoData(left, 20px, 20px, black);
+                        }
+                        > h4.w {
+                          @include infoData(left, 20px, 20px, white);
+                          text-transform: uppercase;
+                        }
+                        > h1.w {
+                          @include infoData(left, 20px, 20px, white);
+                          font-size: 22px;
+                        }
+                        > h5.w {
+                          @include infoData(left, 20px, 20px, white);
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end new products
+        }
+      }
+    }
+  } @else if $value==$lg {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      body {
+        > div.wrapper {
+          width: 100%;
+          //make menu
+          > div.menu {
+            width: 100%;
+            height: 44px;
+            background-color: #333333;
+            > nav {
+              width: inherit;
+              height: inherit;
+              > ul {
+                width: inherit;
+                height: inherit;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                gap: 0 25px;
+                > li {
+                  width: auto;
+                  height: inherit;
+                  > a {
+                    width: auto;
+                    height: inherit;
+                    line-height: 44px;
+                    text-decoration: none;
+                    color: $MenuColor;
+                    display: block;
+                    font-size: 14px;
+                    transition: 300ms;
+                    &:hover {
+                      color: white;
+                    }
+                    > img {
+                      filter: invert(30%);
+                      transition: 300ms;
+                      &:hover {
+                        filter: brightness(100%);
+                      }
+                    }
+                    > i {
+                      font-size: 15px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end menu
+          //ignore sMenu
+          div.sMenu {
+            display: none;
+          }
+          //make products swiper
+          > div.products {
+            width: 100%;
+            height: 230px;
+            margin-top: 50px;
+            padding: 40px;
+            > div.mySwiper {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    display: block;
+                    color: black;
+                    transition: 300ms;
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                    > div:nth-of-type(1) {
+                      display: flex;
+                      justify-content: center;
+                      width: inherit;
+                      height: 100px;
+                      > img {
+                        width: 150px;
+                      }
+                    }
+                    > div:nth-of-type(2) {
+                      width: inherit;
+                      height: 30px;
+                      margin-top: 10px;
+                      > p {
+                        font-weight: bold;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end products swiper
+          > div.title {
+            width: 88%;
+            height: 30px;
+            margin: 30px auto;
+            display: flex;
+            > h1:nth-last-of-type(1) {
+              color: grey;
+              padding-left: 10px;
+            }
+          }
+          //make new products//
+          > div.new {
+            width: 90%;
+            height: 550px;
+            margin: 0 auto;
+            padding: 5px;
+            margin-bottom: 20px;
+            > div.shila {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    width: inherit;
+                    height: auto;
+                    > div {
+                      width: inherit;
+                      height: inherit;
+                      position: relative;
+                      transition: 300ms;
+                      &:hover {
+                        position: absolute;
+                        top: 3px;
+                        left: 3px;
+                      }
+                      > img {
+                        border-radius: $Radius;
+                      }
+                      > div.text {
+                        width: inherit;
+                        height: 100px;
+                        position: absolute;
+                        top: 0;
+                        > h4 {
+                          @include infoData(left, 20px, 20px, black);
+                          text-transform: uppercase;
+                        }
+                        > h1 {
+                          @include infoData(left, 20px, 20px, black);
+                          font-size: 14px;
+                        }
+                        > h5 {
+                          @include infoData(left, 20px, 20px, black);
+                        }
+                        > h4.w {
+                          @include infoData(left, 20px, 20px, white);
+                          text-transform: uppercase;
+                        }
+                        > h1.w {
+                          @include infoData(left, 20px, 20px, white);
+                          font-size: 14px;
+                        }
+                        > h5.w {
+                          @include infoData(left, 20px, 20px, white);
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end new products
+        }
+      }
+    }
+  } @else if $value==$md {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+      body {
+        > div.wrapper {
+          width: 100%;
+          //make menu
+          > div.menu {
+            width: 100%;
+            height: 44px;
+            background-color: #333333;
+            > nav {
+              width: inherit;
+              height: inherit;
+              > ul {
+                width: inherit;
+                height: inherit;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                gap: 0 18px;
+                > li {
+                  width: auto;
+                  height: inherit;
+                  > a {
+                    width: auto;
+                    height: inherit;
+                    line-height: 44px;
+                    text-decoration: none;
+                    color: $MenuColor;
+                    display: block;
+                    font-size: 14px;
+                    transition: 300ms;
+                    &:hover {
+                      color: white;
+                    }
+                    > img {
+                      filter: invert(30%);
+                      transition: 300ms;
+                      &:hover {
+                        filter: brightness(100%);
+                      }
+                    }
+                    > i {
+                      font-size: 15px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end menu
+          //ignore sMenu
+          div.sMenu {
+            display: none;
+          }
+          //make products swiper
+          > div.products {
+            width: 100%;
+            height: 230px;
+            margin-top: 50px;
+            padding: 40px;
+            > div.mySwiper {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    display: block;
+                    color: black;
+                    transition: 300ms;
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                    > div:nth-of-type(1) {
+                      display: flex;
+                      justify-content: center;
+                      width: inherit;
+                      height: 100px;
+                      > img {
+                        width: 150px;
+                      }
+                    }
+                    > div:nth-of-type(2) {
+                      width: inherit;
+                      height: 30px;
+                      margin-top: 10px;
+                      > p {
+                        font-weight: bold;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end products swiper
+          > div.title {
+            width: 88%;
+            height: 30px;
+            margin: 30px auto;
+            display: flex;
+            > h1:nth-last-of-type(1) {
+              color: grey;
+              padding-left: 10px;
+              font-size: 24px;
+            }
+            > h1:nth-of-type(1) {
+              font-size: 24px;
+            }
+          }
+          //make new products//
+          > div.new {
+            width: 90%;
+            height: 550px;
+            margin: 0 auto;
+            padding: 5px;
+            margin-bottom: 20px;
+            > div.shila {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    width: inherit;
+                    height: auto;
+                    > div {
+                      width: inherit;
+                      height: inherit;
+                      position: relative;
+                      transition: 300ms;
+                      &:hover {
+                        position: absolute;
+                        top: 3px;
+                        left: 3px;
+                      }
+                      > img {
+                        border-radius: $Radius;
+                      }
+                      > div.text {
+                        width: inherit;
+                        height: 100px;
+                        position: absolute;
+                        top: 0;
+                        > h4 {
+                          @include infoData(left, 20px, 20px, black);
+                          text-transform: uppercase;
+                        }
+                        > h1 {
+                          @include infoData(left, 20px, 20px, black);
+                          font-size: 14px;
+                        }
+                        > h5 {
+                          @include infoData(left, 20px, 20px, black);
+                        }
+                        > h4.w {
+                          @include infoData(left, 20px, 20px, white);
+                          text-transform: uppercase;
+                        }
+                        > h1.w {
+                          @include infoData(left, 20px, 20px, white);
+                          font-size: 14px;
+                        }
+                        > h5.w {
+                          @include infoData(left, 20px, 20px, white);
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end new products
+        }
+      }
+    }
+  } @else if $value==$sm {
+    @media screen and (min-width: 576px) and (max-width: 768px) {
+      body {
+        > div.wrapper {
+          width: 100%;
+          //ignore menu
+          div.menu {
+            display: none;
+          }
+          // make sm, xs menu
+          div.sMenu {
+            width: calc(100vw - 20px);
+            height: 44px;
+            background-color: #333333;
+            display: flex;
+            justify-content: space-between;
+            > div.grip,
+            div.icon,
+            div.shop {
+              width: 10%;
+              height: inherit;
+              display: flex;
+              justify-content: center;
+              > a {
+                width: inherit;
+                height: auto;
+                line-height: 44px;
+                color: $MenuColor;
+                display: block;
+                transition: 300ms;
+                &:hover {
+                  color: white;
+                }
+                > i.fa-grip-lines {
+                  font-size: 20px;
+                  line-height: 44px;
+                }
+              }
+            }
+            div.icon,
+            div.shop {
+              img {
+                width: 15px;
+                height: auto;
+                filter: invert(30%);
+                transition: 300ms;
+                &:hover {
+                  filter: brightness(100%);
+                }
+              }
+            }
+            > div.grip {
+              position: relative;
+              > div.subMenu {
+                width: calc(100vw - 20px);
+                height: 900px;
+                background-color: black;
+                position: absolute;
+                left: 0;
+                top: 44px;
+                z-index: 3;
+                display: none;
+                > div.search {
+                  width: 90%;
+                  height: 40px;
+                  background-color: #333333;
+                  border-radius: 10px;
+                  margin: 20px auto;
+                  display: flex;
+                  justify-content: space-around;
+                  > i.fa-magnifying-glass {
+                    line-height: 40px;
+                    font-size: 15px;
+                    color: grey;
+                    margin-left: 10px;
+                  }
+                  > div.input {
+                    width: 90%;
+                    height: inherit;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    > input {
+                      width: 100%;
+                      height: 30px;
+                      border: unset;
+                      background-color: #333333;
+                      font-size: 16px;
+                      outline: none;
+                    }
+                  }
+                }
+                > nav {
+                  width: 90%;
+                  height: 40px;
+                  margin: 0 auto;
+                  > ul {
+                    width: 100%;
+                    height: inherit;
+                    > li {
+                      width: 100%;
+                      height: inherit;
+                      > a {
+                        width: 100%;
+                        height: inherit;
+                        display: block;
+                        line-height: 40px;
+                        color: $MenuColor;
+                        border-bottom: 0.5px solid $MenuColor;
+                        font-size: 18px;
+                        &:hover {
+                          color: white;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            > div.shop {
+              position: relative;
+              > div.bolsa {
+                width: calc(100vw - 20px);
+                height: 300px;
+                background-color: whitesmoke;
+                position: absolute;
+                right: 0;
+                top: 44px;
+                z-index: 4;
+                display: none;
+                > div.empty {
+                  width: 90%;
+                  height: 50px;
+                  margin: 10px auto;
+                  border-bottom: 0.5px solid $MenuColor;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  > p {
+                    color: grey;
+                  }
+                }
+                > div.azul {
+                  width: 90%;
+                  height: 270px;
+                  margin: 0 auto;
+                  display: flex;
+                  flex-flow: column wrap;
+                  gap: 5px;
+                  > div {
+                    width: 100%;
+                    height: 40px;
+                    border-bottom: 0.5px solid $MenuColor;
+                    > a {
+                      width: inherit;
+                      height: inherit;
+                      display: flex;
+                      gap: 10px;
+                      align-items: center;
+                      padding: 10px;
+                      > img {
+                        width: 30px;
+                      }
+                      > p {
+                        color: #0066cc;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          // end sm, xs menu
+          //make products swiper
+          > div.products {
+            width: 100%;
+            height: 230px;
+            margin-top: 50px;
+            padding: 40px;
+            > div.mySwiper {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    display: block;
+                    color: black;
+                    transition: 300ms;
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                    > div:nth-of-type(1) {
+                      display: flex;
+                      justify-content: center;
+                      width: inherit;
+                      height: 100px;
+                      > img {
+                        width: 150px;
+                      }
+                    }
+                    > div:nth-of-type(2) {
+                      width: inherit;
+                      height: 30px;
+                      margin-top: 10px;
+                      > p {
+                        font-weight: bold;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end products swiper
+          > div.title {
+            width: 88%;
+            height: 30px;
+            margin: 20px auto;
+            display: flex;
+            > h1:nth-last-of-type(1) {
+              color: grey;
+              padding-left: 10px;
+              font-size: 16px;
+            }
+            > h1:nth-of-type(1) {
+              font-size: 16px;
+            }
+          }
+          //make new products//
+          > div.new {
+            width: 90%;
+            height: 550px;
+            margin: 0 auto;
+            padding: 5px;
+            margin-bottom: 20px;
+            > div.shila {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    width: inherit;
+                    height: auto;
+                    > div {
+                      width: inherit;
+                      height: inherit;
+                      position: relative;
+                      transition: 300ms;
+                      &:hover {
+                        position: absolute;
+                        top: 3px;
+                        left: 3px;
+                      }
+                      > img {
+                        border-radius: $Radius;
+                      }
+                      > div.text {
+                        width: inherit;
+                        height: 100px;
+                        position: absolute;
+                        top: 0;
+                        > h4 {
+                          @include infoData(left, 10px, 10px, black);
+                          text-transform: uppercase;
+                        }
+                        > h1 {
+                          @include infoData(left, 10px, 10px, black);
+                          font-size: 14px;
+                        }
+                        > h5 {
+                          @include infoData(left, 10px, 10px, black);
+                        }
+                        > h4.w {
+                          @include infoData(left, 10px, 10px, white);
+                          text-transform: uppercase;
+                        }
+                        > h1.w {
+                          @include infoData(left, 10px, 10px, white);
+                          font-size: 14px;
+                        }
+                        > h5.w {
+                          @include infoData(left, 10px, 10px, white);
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end new products
+        }
+      }
+    }
+  } @else {
+    @media screen and(max-width:575px) {
+      body {
+        > div.wrapper {
+          width: 100%;
+          //ignore menu
+          div.menu {
+            display: none;
+          }
+          // make sm, xs menu
+          div.sMenu {
+            width: calc(100vw - 20px);
+            height: 44px;
+            background-color: #333333;
+            display: flex;
+            justify-content: space-between;
+            > div.grip,
+            div.icon,
+            div.shop {
+              width: 10%;
+              height: inherit;
+              display: flex;
+              justify-content: center;
+              > a {
+                width: inherit;
+                height: auto;
+                line-height: 44px;
+                color: $MenuColor;
+                display: block;
+                transition: 300ms;
+                &:hover {
+                  color: white;
+                }
+                > i.fa-grip-lines {
+                  font-size: 20px;
+                  line-height: 44px;
+                }
+              }
+            }
+            div.icon,
+            div.shop {
+              img {
+                width: 15px;
+                height: auto;
+                filter: invert(30%);
+                transition: 300ms;
+                &:hover {
+                  filter: brightness(100%);
+                }
+              }
+            }
+            > div.grip {
+              position: relative;
+              > div.subMenu {
+                width: calc(100vw - 20px);
+                height: 900px;
+                background-color: black;
+                position: absolute;
+                left: 0;
+                top: 44px;
+                z-index: 3;
+                display: none;
+                > div.search {
+                  width: 90%;
+                  height: 40px;
+                  background-color: #333333;
+                  border-radius: 10px;
+                  margin: 20px auto;
+                  display: flex;
+                  justify-content: space-around;
+                  > i.fa-magnifying-glass {
+                    line-height: 40px;
+                    font-size: 15px;
+                    color: grey;
+                    margin-left: 10px;
+                  }
+                  > div.input {
+                    width: 90%;
+                    height: inherit;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    > input {
+                      width: 100%;
+                      height: 30px;
+                      border: unset;
+                      background-color: #333333;
+                      font-size: 16px;
+                      outline: none;
+                    }
+                  }
+                }
+                > nav {
+                  width: 90%;
+                  height: 40px;
+                  margin: 0 auto;
+                  > ul {
+                    width: 100%;
+                    height: inherit;
+                    > li {
+                      width: 100%;
+                      height: inherit;
+                      > a {
+                        width: 100%;
+                        height: inherit;
+                        display: block;
+                        line-height: 40px;
+                        color: $MenuColor;
+                        border-bottom: 0.5px solid $MenuColor;
+                        font-size: 18px;
+                        &:hover {
+                          color: white;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            > div.shop {
+              position: relative;
+              > div.bolsa {
+                width: calc(100vw - 20px);
+                height: 300px;
+                background-color: whitesmoke;
+                position: absolute;
+                right: 0;
+                top: 44px;
+                z-index: 4;
+                display: none;
+                > div.empty {
+                  width: 90%;
+                  height: 50px;
+                  margin: 10px auto;
+                  border-bottom: 0.5px solid $MenuColor;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  > p {
+                    color: grey;
+                  }
+                }
+                > div.azul {
+                  width: 90%;
+                  height: 270px;
+                  margin: 0 auto;
+                  display: flex;
+                  flex-flow: column wrap;
+                  gap: 5px;
+                  > div {
+                    width: 100%;
+                    height: 40px;
+                    border-bottom: 0.5px solid $MenuColor;
+                    > a {
+                      width: inherit;
+                      height: inherit;
+                      display: flex;
+                      gap: 10px;
+                      align-items: center;
+                      padding: 10px;
+                      > img {
+                        width: 30px;
+                      }
+                      > p {
+                        color: #0066cc;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          // end sm, xs menu
+          //make products swiper
+          > div.products {
+            width: 100%;
+            height: 230px;
+            margin-top: 50px;
+            padding: 40px;
+            > div.mySwiper {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    display: block;
+                    color: black;
+                    transition: 300ms;
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                    > div:nth-of-type(1) {
+                      display: flex;
+                      justify-content: center;
+                      width: inherit;
+                      height: 100px;
+                      > img {
+                        width: 150px;
+                      }
+                    }
+                    > div:nth-of-type(2) {
+                      width: inherit;
+                      height: 30px;
+                      margin-top: 10px;
+                      > p {
+                        font-weight: bold;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end products swiper
+          > div.title {
+            width: 88%;
+            height: 30px;
+            margin: 20px auto;
+            display: flex;
+            > h1:nth-last-of-type(1) {
+              color: grey;
+              padding-left: 10px;
+              font-size: 16px;
+            }
+            > h1:nth-of-type(1) {
+              font-size: 16px;
+            }
+          }
+          //make new products//
+          > div.new {
+            width: 90%;
+            height: 550px;
+            margin: 0 auto;
+            padding: 5px;
+            margin-bottom: 20px;
+            > div.shila {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    width: inherit;
+                    height: auto;
+                    > div {
+                      width: inherit;
+                      height: inherit;
+                      position: relative;
+                      transition: 300ms;
+                      &:hover {
+                        position: absolute;
+                        top: 3px;
+                        left: 3px;
+                      }
+                      > img {
+                        border-radius: $Radius;
+                      }
+                      > div.text {
+                        width: inherit;
+                        height: 100px;
+                        position: absolute;
+                        top: 0;
+                        > h4 {
+                          @include infoData(left, 10px, 10px, black);
+                          text-transform: uppercase;
+                        }
+                        > h1 {
+                          @include infoData(left, 10px, 10px, black);
+                          font-size: 14px;
+                        }
+                        > h5 {
+                          @include infoData(left, 10px, 10px, black);
+                        }
+                        > h4.w {
+                          @include infoData(left, 10px, 10px, white);
+                          text-transform: uppercase;
+                        }
+                        > h1.w {
+                          @include infoData(left, 10px, 10px, white);
+                          font-size: 14px;
+                        }
+                        > h5.w {
+                          @include infoData(left, 10px, 10px, white);
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end new products
+        }
+      }
+    }
+  }
+}

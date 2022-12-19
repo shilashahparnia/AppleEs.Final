@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Shila;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background-color: #e1e1e2;
+}
+$MenuColor: #bfbfbf;
+$Radius: 20px;
+
+@font-face {
+  font-family: Shila;
+  src: url(../Fonts/SFPRODISPLAYREGULAR.eot);
+  src: url(../Fonts/SFPRODISPLAYREGULAR.ttf);
+  src: url(../Fonts/SFPRODISPLAYREGULAR.woff);
+  src: url(../Fonts/SFPRODISPLAYREGULAR.woff2);
+}
