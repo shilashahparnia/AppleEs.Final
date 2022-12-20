@@ -60,11 +60,11 @@ $sm: 576px;
           div.sMenu {
             display: none;
           }
-          //make products swiper
+          //make smalll products swiper
           > div.products {
             width: 100%;
             height: 230px;
-            margin-top: 50px;
+            margin-top: 20px;
             padding: 40px;
             > div.mySwiper {
               > div.swiper-wrapper {
@@ -98,7 +98,7 @@ $sm: 576px;
               }
             }
           }
-          //end products swiper
+          //end small products swiper
           > div.title {
             width: 88%;
             height: 30px;
@@ -168,6 +168,98 @@ $sm: 576px;
             }
           }
           //end new products
+          //make gift card
+          > div.gift {
+            width: 100%;
+            height: 600px;
+            background-color: aqua;
+            background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
+            background-position: center;
+            background-size: cover;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 20px;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column;
+              align-items: center;
+              > h1 {
+                color: white;
+                font-size: 50px;
+                margin-bottom: 10px;
+              }
+              > h2 {
+                color: white;
+              }
+              > a {
+                color: $Azul;
+                margin-top: 20px;
+                font-size: 20px;
+                transition: 300ms;
+                &:hover {
+                  text-decoration: underline;
+                }
+                > i.fa-chevron-right {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+          //end gift card
+          //make iPad card
+          > div.ipad {
+            width: 100%;
+            height: 600px;
+            background-color: aqua;
+            margin-bottom: 20px;
+            background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 300px;
+            cursor: pointer;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column wrap;
+              align-items: center;
+              gap: 5px;
+              > h1 {
+                font-size: 50px;
+              }
+              > h3 {
+                font-size: 30px;
+                font-weight: unset;
+              }
+              > div {
+                width: 400px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 20px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+          //end iPad card
         }
       }
     }
@@ -226,11 +318,11 @@ $sm: 576px;
           div.sMenu {
             display: none;
           }
-          //make products swiper
+          //make small products swiper
           > div.products {
             width: 100%;
             height: 230px;
-            margin-top: 50px;
+            margin-top: 20px;
             padding: 40px;
             > div.mySwiper {
               > div.swiper-wrapper {
@@ -264,7 +356,7 @@ $sm: 576px;
               }
             }
           }
-          //end products swiper
+          //end small products swiper
           > div.title {
             width: 88%;
             height: 30px;
@@ -336,6 +428,98 @@ $sm: 576px;
             }
           }
           //end new products
+          //make gift card
+          > div.gift {
+            width: 100%;
+            height: 600px;
+            background-color: aqua;
+            background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
+            background-position: center;
+            background-size: cover;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 20px;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column;
+              align-items: center;
+              > h1 {
+                color: white;
+                font-size: 50px;
+                margin-bottom: 10px;
+              }
+              > h2 {
+                color: white;
+              }
+              > a {
+                color: $Azul;
+                margin-top: 20px;
+                font-size: 20px;
+                transition: 300ms;
+                &:hover {
+                  text-decoration: underline;
+                }
+                > i.fa-chevron-right {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+          //end gift card
+          //make iPad card
+          > div.ipad {
+            width: 100%;
+            height: 600px;
+            background-color: aqua;
+            margin-bottom: 20px;
+            background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 100px;
+            cursor: pointer;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column wrap;
+              align-items: center;
+              gap: 5px;
+              > h1 {
+                font-size: 50px;
+              }
+              > h3 {
+                font-size: 30px;
+                font-weight: unset;
+              }
+              > div {
+                width: 400px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 20px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+          //end iPad card
         }
       }
     }
@@ -394,11 +578,11 @@ $sm: 576px;
           div.sMenu {
             display: none;
           }
-          //make products swiper
+          //make small products swiper
           > div.products {
             width: 100%;
             height: 230px;
-            margin-top: 50px;
+            margin-top: 20px;
             padding: 40px;
             > div.mySwiper {
               > div.swiper-wrapper {
@@ -432,7 +616,7 @@ $sm: 576px;
               }
             }
           }
-          //end products swiper
+          //end small products swiper
           > div.title {
             width: 88%;
             height: 30px;
@@ -504,6 +688,98 @@ $sm: 576px;
             }
           }
           //end new products
+          //make gift card
+          > div.gift {
+            width: 100%;
+            height: 600px;
+            background-color: aqua;
+            background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
+            background-position: center;
+            background-size: cover;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 20px;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column;
+              align-items: center;
+              > h1 {
+                color: white;
+                font-size: 50px;
+                margin-bottom: 10px;
+              }
+              > h2 {
+                color: white;
+              }
+              > a {
+                color: $Azul;
+                margin-top: 20px;
+                font-size: 20px;
+                transition: 300ms;
+                &:hover {
+                  text-decoration: underline;
+                }
+                > i.fa-chevron-right {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+          //end gift card
+          //make iPad card
+          > div.ipad {
+            width: 100%;
+            height: 600px;
+            background-color: aqua;
+            margin-bottom: 20px;
+            background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 100px;
+            cursor: pointer;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column wrap;
+              align-items: center;
+              gap: 5px;
+              > h1 {
+                font-size: 50px;
+              }
+              > h3 {
+                font-size: 30px;
+                font-weight: unset;
+              }
+              > div {
+                width: 400px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 20px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+          //end iPad card
         }
       }
     }
@@ -562,11 +838,11 @@ $sm: 576px;
           div.sMenu {
             display: none;
           }
-          //make products swiper
+          //make small products swiper
           > div.products {
             width: 100%;
             height: 230px;
-            margin-top: 50px;
+            margin-top: 20px;
             padding: 40px;
             > div.mySwiper {
               > div.swiper-wrapper {
@@ -600,7 +876,7 @@ $sm: 576px;
               }
             }
           }
-          //end products swiper
+          //end small products swiper
           > div.title {
             width: 88%;
             height: 30px;
@@ -676,6 +952,98 @@ $sm: 576px;
             }
           }
           //end new products
+          //make gift card
+          > div.gift {
+            width: 100%;
+            height: 600px;
+            background-color: aqua;
+            background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
+            background-position: center;
+            background-size: cover;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 20px;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column;
+              align-items: center;
+              > h1 {
+                color: white;
+                font-size: 30px;
+                margin-bottom: 10px;
+              }
+              > h2 {
+                color: white;
+              }
+              > a {
+                color: $Azul;
+                margin-top: 20px;
+                font-size: 20px;
+                transition: 300ms;
+                &:hover {
+                  text-decoration: underline;
+                }
+                > i.fa-chevron-right {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+          //end gift card
+          //make iPad card
+          > div.ipad {
+            width: 100%;
+            height: 600px;
+            background-color: aqua;
+            margin-bottom: 20px;
+            background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 40px;
+            cursor: pointer;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column wrap;
+              align-items: center;
+              gap: 5px;
+              > h1 {
+                font-size: 50px;
+              }
+              > h3 {
+                font-size: 30px;
+                font-weight: unset;
+              }
+              > div {
+                width: 400px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 20px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+          //end iPad card
         }
       }
     }
@@ -852,11 +1220,11 @@ $sm: 576px;
             }
           }
           // end sm, xs menu
-          //make products swiper
+          //make small products swiper
           > div.products {
             width: 100%;
             height: 230px;
-            margin-top: 50px;
+            margin-top: 20px;
             padding: 40px;
             > div.mySwiper {
               > div.swiper-wrapper {
@@ -890,7 +1258,7 @@ $sm: 576px;
               }
             }
           }
-          //end products swiper
+          //end samll products swiper
           > div.title {
             width: 88%;
             height: 30px;
@@ -966,6 +1334,98 @@ $sm: 576px;
             }
           }
           //end new products
+          //make gift card
+          > div.gift {
+            width: 100%;
+            height: 600px;
+            background-color: aqua;
+            background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
+            background-position: center;
+            background-size: cover;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 20px;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column;
+              align-items: center;
+              > h1 {
+                color: white;
+                font-size: 30px;
+                margin-bottom: 10px;
+              }
+              > h2 {
+                color: white;
+                font-size: 20px;
+              }
+              > a {
+                color: $Azul;
+                margin-top: 20px;
+                font-size: 20px;
+                transition: 300ms;
+                &:hover {
+                  text-decoration: underline;
+                }
+                > i.fa-chevron-right {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+          //end gift card
+          //make iPad card
+          > div.ipad {
+            width: 100%;
+            height: 600px;
+            background-color: aqua;
+            margin-bottom: 20px;
+            background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            cursor: pointer;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column wrap;
+              align-items: center;
+              gap: 5px;
+              > h1 {
+                font-size: 30px;
+              }
+              > h3 {
+                font-size: 20px;
+                font-weight: unset;
+              }
+              > div {
+                width: 210px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 14px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+          //end iPad card
         }
       }
     }
@@ -1142,11 +1602,11 @@ $sm: 576px;
             }
           }
           // end sm, xs menu
-          //make products swiper
+          //make small products swiper
           > div.products {
             width: 100%;
             height: 230px;
-            margin-top: 50px;
+            margin-top: 20px;
             padding: 40px;
             > div.mySwiper {
               > div.swiper-wrapper {
@@ -1180,7 +1640,7 @@ $sm: 576px;
               }
             }
           }
-          //end products swiper
+          //end small products swiper
           > div.title {
             width: 88%;
             height: 30px;
@@ -1256,6 +1716,98 @@ $sm: 576px;
             }
           }
           //end new products
+          //make gift card
+          > div.gift {
+            width: 100%;
+            height: 600px;
+            background-color: aqua;
+            background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
+            background-position: center;
+            background-size: cover;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 20px;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column;
+              align-items: center;
+              > h1 {
+                color: white;
+                font-size: 20px;
+                margin-bottom: 10px;
+              }
+              > h2 {
+                color: white;
+                font-size: 16px;
+              }
+              > a {
+                color: $Azul;
+                margin-top: 20px;
+                font-size: 16px;
+                transition: 300ms;
+                &:hover {
+                  text-decoration: underline;
+                }
+                > i.fa-chevron-right {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+          //end gift card
+          //make iPad card
+          > div.ipad {
+            width: 100%;
+            height: 600px;
+            background-color: aqua;
+            margin-bottom: 20px;
+            background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            cursor: pointer;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column wrap;
+              align-items: center;
+              gap: 5px;
+              > h1 {
+                font-size: 30px;
+              }
+              > h3 {
+                font-size: 16px;
+                font-weight: unset;
+              }
+              > div {
+                width: 210px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 12px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+          //end iPad card
         }
       }
     }

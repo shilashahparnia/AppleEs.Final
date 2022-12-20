@@ -99,7 +99,7 @@ body {
     body > div.wrapper > div.products {
       width: 100%;
       height: 230px;
-      margin-top: 50px;
+      margin-top: 20px;
       padding: 40px; }
       body > div.wrapper > div.products > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a {
         display: block;
@@ -184,7 +184,80 @@ body {
               text-align: left;
               margin: 20px;
               margin: 20px;
-              color: white; } }
+              color: white; }
+    body > div.wrapper > div.gift {
+      width: 100%;
+      height: 600px;
+      background-color: aqua;
+      background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
+      background-position: center;
+      background-size: cover;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 20px; }
+      body > div.wrapper > div.gift > div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-flow: column;
+        align-items: center; }
+        body > div.wrapper > div.gift > div > h1 {
+          color: white;
+          font-size: 50px;
+          margin-bottom: 10px; }
+        body > div.wrapper > div.gift > div > h2 {
+          color: white; }
+        body > div.wrapper > div.gift > div > a {
+          color: #0066cc;
+          margin-top: 20px;
+          font-size: 20px;
+          transition: 300ms; }
+          body > div.wrapper > div.gift > div > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper > div.gift > div > a > i.fa-chevron-right {
+            font-size: 14px; }
+    body > div.wrapper > div.ipad {
+      width: 100%;
+      height: 600px;
+      background-color: aqua;
+      margin-bottom: 20px;
+      background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 300px;
+      cursor: pointer; }
+      body > div.wrapper > div.ipad > div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        gap: 5px; }
+        body > div.wrapper > div.ipad > div > h1 {
+          font-size: 50px; }
+        body > div.wrapper > div.ipad > div > h3 {
+          font-size: 30px;
+          font-weight: unset; }
+        body > div.wrapper > div.ipad > div > div {
+          width: 400px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 30px; }
+          body > div.wrapper > div.ipad > div > div > a {
+            color: #0066cc;
+            font-size: 20px;
+            transition: 300ms; }
+            body > div.wrapper > div.ipad > div > div > a:hover {
+              text-decoration: underline; }
+            body > div.wrapper > div.ipad > div > div > a > i.fa-chevron-right {
+              font-size: 14px; } }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   body > div.wrapper {
@@ -229,7 +302,7 @@ body {
     body > div.wrapper > div.products {
       width: 100%;
       height: 230px;
-      margin-top: 50px;
+      margin-top: 20px;
       padding: 40px; }
       body > div.wrapper > div.products > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a {
         display: block;
@@ -316,7 +389,80 @@ body {
               text-align: left;
               margin: 20px;
               margin: 20px;
-              color: white; } }
+              color: white; }
+    body > div.wrapper > div.gift {
+      width: 100%;
+      height: 600px;
+      background-color: aqua;
+      background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
+      background-position: center;
+      background-size: cover;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 20px; }
+      body > div.wrapper > div.gift > div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-flow: column;
+        align-items: center; }
+        body > div.wrapper > div.gift > div > h1 {
+          color: white;
+          font-size: 50px;
+          margin-bottom: 10px; }
+        body > div.wrapper > div.gift > div > h2 {
+          color: white; }
+        body > div.wrapper > div.gift > div > a {
+          color: #0066cc;
+          margin-top: 20px;
+          font-size: 20px;
+          transition: 300ms; }
+          body > div.wrapper > div.gift > div > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper > div.gift > div > a > i.fa-chevron-right {
+            font-size: 14px; }
+    body > div.wrapper > div.ipad {
+      width: 100%;
+      height: 600px;
+      background-color: aqua;
+      margin-bottom: 20px;
+      background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 100px;
+      cursor: pointer; }
+      body > div.wrapper > div.ipad > div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        gap: 5px; }
+        body > div.wrapper > div.ipad > div > h1 {
+          font-size: 50px; }
+        body > div.wrapper > div.ipad > div > h3 {
+          font-size: 30px;
+          font-weight: unset; }
+        body > div.wrapper > div.ipad > div > div {
+          width: 400px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 30px; }
+          body > div.wrapper > div.ipad > div > div > a {
+            color: #0066cc;
+            font-size: 20px;
+            transition: 300ms; }
+            body > div.wrapper > div.ipad > div > div > a:hover {
+              text-decoration: underline; }
+            body > div.wrapper > div.ipad > div > div > a > i.fa-chevron-right {
+              font-size: 14px; } }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   body > div.wrapper {
@@ -361,7 +507,7 @@ body {
     body > div.wrapper > div.products {
       width: 100%;
       height: 230px;
-      margin-top: 50px;
+      margin-top: 20px;
       padding: 40px; }
       body > div.wrapper > div.products > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a {
         display: block;
@@ -448,7 +594,80 @@ body {
               text-align: left;
               margin: 20px;
               margin: 20px;
-              color: white; } }
+              color: white; }
+    body > div.wrapper > div.gift {
+      width: 100%;
+      height: 600px;
+      background-color: aqua;
+      background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
+      background-position: center;
+      background-size: cover;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 20px; }
+      body > div.wrapper > div.gift > div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-flow: column;
+        align-items: center; }
+        body > div.wrapper > div.gift > div > h1 {
+          color: white;
+          font-size: 50px;
+          margin-bottom: 10px; }
+        body > div.wrapper > div.gift > div > h2 {
+          color: white; }
+        body > div.wrapper > div.gift > div > a {
+          color: #0066cc;
+          margin-top: 20px;
+          font-size: 20px;
+          transition: 300ms; }
+          body > div.wrapper > div.gift > div > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper > div.gift > div > a > i.fa-chevron-right {
+            font-size: 14px; }
+    body > div.wrapper > div.ipad {
+      width: 100%;
+      height: 600px;
+      background-color: aqua;
+      margin-bottom: 20px;
+      background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 100px;
+      cursor: pointer; }
+      body > div.wrapper > div.ipad > div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        gap: 5px; }
+        body > div.wrapper > div.ipad > div > h1 {
+          font-size: 50px; }
+        body > div.wrapper > div.ipad > div > h3 {
+          font-size: 30px;
+          font-weight: unset; }
+        body > div.wrapper > div.ipad > div > div {
+          width: 400px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 30px; }
+          body > div.wrapper > div.ipad > div > div > a {
+            color: #0066cc;
+            font-size: 20px;
+            transition: 300ms; }
+            body > div.wrapper > div.ipad > div > div > a:hover {
+              text-decoration: underline; }
+            body > div.wrapper > div.ipad > div > div > a > i.fa-chevron-right {
+              font-size: 14px; } }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   body > div.wrapper {
@@ -493,7 +712,7 @@ body {
     body > div.wrapper > div.products {
       width: 100%;
       height: 230px;
-      margin-top: 50px;
+      margin-top: 20px;
       padding: 40px; }
       body > div.wrapper > div.products > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a {
         display: block;
@@ -583,7 +802,80 @@ body {
               text-align: left;
               margin: 20px;
               margin: 20px;
-              color: white; } }
+              color: white; }
+    body > div.wrapper > div.gift {
+      width: 100%;
+      height: 600px;
+      background-color: aqua;
+      background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
+      background-position: center;
+      background-size: cover;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 20px; }
+      body > div.wrapper > div.gift > div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-flow: column;
+        align-items: center; }
+        body > div.wrapper > div.gift > div > h1 {
+          color: white;
+          font-size: 30px;
+          margin-bottom: 10px; }
+        body > div.wrapper > div.gift > div > h2 {
+          color: white; }
+        body > div.wrapper > div.gift > div > a {
+          color: #0066cc;
+          margin-top: 20px;
+          font-size: 20px;
+          transition: 300ms; }
+          body > div.wrapper > div.gift > div > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper > div.gift > div > a > i.fa-chevron-right {
+            font-size: 14px; }
+    body > div.wrapper > div.ipad {
+      width: 100%;
+      height: 600px;
+      background-color: aqua;
+      margin-bottom: 20px;
+      background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 40px;
+      cursor: pointer; }
+      body > div.wrapper > div.ipad > div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        gap: 5px; }
+        body > div.wrapper > div.ipad > div > h1 {
+          font-size: 50px; }
+        body > div.wrapper > div.ipad > div > h3 {
+          font-size: 30px;
+          font-weight: unset; }
+        body > div.wrapper > div.ipad > div > div {
+          width: 400px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 30px; }
+          body > div.wrapper > div.ipad > div > div > a {
+            color: #0066cc;
+            font-size: 20px;
+            transition: 300ms; }
+            body > div.wrapper > div.ipad > div > div > a:hover {
+              text-decoration: underline; }
+            body > div.wrapper > div.ipad > div > div > a > i.fa-chevron-right {
+              font-size: 14px; } }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
   body > div.wrapper {
@@ -733,7 +1025,7 @@ body {
     body > div.wrapper > div.products {
       width: 100%;
       height: 230px;
-      margin-top: 50px;
+      margin-top: 20px;
       padding: 40px; }
       body > div.wrapper > div.products > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a {
         display: block;
@@ -823,7 +1115,80 @@ body {
               text-align: left;
               margin: 10px;
               margin: 10px;
-              color: white; } }
+              color: white; }
+    body > div.wrapper > div.gift {
+      width: 100%;
+      height: 600px;
+      background-color: aqua;
+      background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
+      background-position: center;
+      background-size: cover;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 20px; }
+      body > div.wrapper > div.gift > div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-flow: column;
+        align-items: center; }
+        body > div.wrapper > div.gift > div > h1 {
+          color: white;
+          font-size: 30px;
+          margin-bottom: 10px; }
+        body > div.wrapper > div.gift > div > h2 {
+          color: white;
+          font-size: 20px; }
+        body > div.wrapper > div.gift > div > a {
+          color: #0066cc;
+          margin-top: 20px;
+          font-size: 20px;
+          transition: 300ms; }
+          body > div.wrapper > div.gift > div > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper > div.gift > div > a > i.fa-chevron-right {
+            font-size: 14px; }
+    body > div.wrapper > div.ipad {
+      width: 100%;
+      height: 600px;
+      background-color: aqua;
+      margin-bottom: 20px;
+      background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      cursor: pointer; }
+      body > div.wrapper > div.ipad > div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        gap: 5px; }
+        body > div.wrapper > div.ipad > div > h1 {
+          font-size: 30px; }
+        body > div.wrapper > div.ipad > div > h3 {
+          font-size: 20px;
+          font-weight: unset; }
+        body > div.wrapper > div.ipad > div > div {
+          width: 210px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 30px; }
+          body > div.wrapper > div.ipad > div > div > a {
+            color: #0066cc;
+            font-size: 14px;
+            transition: 300ms; }
+            body > div.wrapper > div.ipad > div > div > a:hover {
+              text-decoration: underline; }
+            body > div.wrapper > div.ipad > div > div > a > i.fa-chevron-right {
+              font-size: 14px; } }
 
 @media screen and (max-width: 575px) {
   body > div.wrapper {
@@ -973,7 +1338,7 @@ body {
     body > div.wrapper > div.products {
       width: 100%;
       height: 230px;
-      margin-top: 50px;
+      margin-top: 20px;
       padding: 40px; }
       body > div.wrapper > div.products > div.mySwiper > div.swiper-wrapper > div.swiper-slide > a {
         display: block;
@@ -1063,4 +1428,77 @@ body {
               text-align: left;
               margin: 10px;
               margin: 10px;
-              color: white; } }
+              color: white; }
+    body > div.wrapper > div.gift {
+      width: 100%;
+      height: 600px;
+      background-color: aqua;
+      background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
+      background-position: center;
+      background-size: cover;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 20px; }
+      body > div.wrapper > div.gift > div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-flow: column;
+        align-items: center; }
+        body > div.wrapper > div.gift > div > h1 {
+          color: white;
+          font-size: 20px;
+          margin-bottom: 10px; }
+        body > div.wrapper > div.gift > div > h2 {
+          color: white;
+          font-size: 16px; }
+        body > div.wrapper > div.gift > div > a {
+          color: #0066cc;
+          margin-top: 20px;
+          font-size: 16px;
+          transition: 300ms; }
+          body > div.wrapper > div.gift > div > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper > div.gift > div > a > i.fa-chevron-right {
+            font-size: 14px; }
+    body > div.wrapper > div.ipad {
+      width: 100%;
+      height: 600px;
+      background-color: aqua;
+      margin-bottom: 20px;
+      background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      cursor: pointer; }
+      body > div.wrapper > div.ipad > div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        gap: 5px; }
+        body > div.wrapper > div.ipad > div > h1 {
+          font-size: 30px; }
+        body > div.wrapper > div.ipad > div > h3 {
+          font-size: 16px;
+          font-weight: unset; }
+        body > div.wrapper > div.ipad > div > div {
+          width: 210px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 30px; }
+          body > div.wrapper > div.ipad > div > div > a {
+            color: #0066cc;
+            font-size: 12px;
+            transition: 300ms; }
+            body > div.wrapper > div.ipad > div > div > a:hover {
+              text-decoration: underline; }
+            body > div.wrapper > div.ipad > div > div > a > i.fa-chevron-right {
+              font-size: 14px; } }
