@@ -188,7 +188,6 @@ body {
     body > div.wrapper > div.gift {
       width: 100%;
       height: 600px;
-      background-color: aqua;
       background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
       background-position: center;
       background-size: cover;
@@ -221,8 +220,6 @@ body {
     body > div.wrapper > div.ipad {
       width: 100%;
       height: 600px;
-      background-color: aqua;
-      margin-bottom: 20px;
       background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
       background-position: center;
       background-size: cover;
@@ -257,7 +254,123 @@ body {
             body > div.wrapper > div.ipad > div > div > a:hover {
               text-decoration: underline; }
             body > div.wrapper > div.ipad > div > div > a > i.fa-chevron-right {
-              font-size: 14px; } }
+              font-size: 14px; }
+    body > div.wrapper > div.watch {
+      width: 100%;
+      height: 600px;
+      cursor: pointer;
+      background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_large_2x.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-flow: column wrap;
+      gap: 5px;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 50px; }
+      body > div.wrapper > div.watch > div {
+        width: 40%;
+        height: 50px; }
+      body > div.wrapper > div.watch > div:nth-of-type(1) {
+        display: flex;
+        justify-content: center; }
+        body > div.wrapper > div.watch > div:nth-of-type(1) > img {
+          width: 200px;
+          height: auto; }
+      body > div.wrapper > div.watch > div:nth-of-type(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body > div.wrapper > div.watch > div:nth-of-type(2) > h2 {
+          color: white; }
+      body > div.wrapper > div.watch > div:nth-of-type(3) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px; }
+        body > div.wrapper > div.watch > div:nth-of-type(3) > a {
+          color: #0066cc;
+          font-size: 20px;
+          transition: 300ms; }
+          body > div.wrapper > div.watch > div:nth-of-type(3) > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper > div.watch > div:nth-of-type(3) > a > i.fa-chevron-right {
+            font-size: 14px; }
+    body > div.wrapper > div.pros {
+      width: 100%;
+      height: 625px;
+      padding: 10px;
+      display: flex;
+      gap: 15px; }
+      body > div.wrapper > div.pros > div {
+        width: inherit;
+        height: auto; }
+      body > div.wrapper > div.pros > div:nth-of-type(1) {
+        background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large_2x.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px;
+        gap: 5px; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div {
+          width: 50%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(1) > h1 {
+          color: white; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(2) > h3 {
+          color: white; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) {
+          display: flex;
+          gap: 30px; }
+          body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a {
+            color: #0066cc;
+            font-size: 18px;
+            transition: 300ms; }
+            body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a:hover {
+              text-decoration: underline; }
+            body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a > i.fa-chevron-right {
+              font-size: 12px; }
+      body > div.wrapper > div.pros > div:nth-of-type(2) {
+        background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large_2x.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px;
+        gap: 5px; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div {
+          width: 50%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(1) > img {
+          width: 30px;
+          height: auto; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(2) h1 {
+          font-size: 35px; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(3) h3 {
+          font-weight: unset; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a {
+          color: #0066cc;
+          font-size: 18px;
+          transition: 300ms; }
+          body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a > i.fa-chevron-right {
+            font-size: 12px;
+            padding-left: 5px; } }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   body > div.wrapper {
@@ -393,7 +506,6 @@ body {
     body > div.wrapper > div.gift {
       width: 100%;
       height: 600px;
-      background-color: aqua;
       background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
       background-position: center;
       background-size: cover;
@@ -426,7 +538,6 @@ body {
     body > div.wrapper > div.ipad {
       width: 100%;
       height: 600px;
-      background-color: aqua;
       margin-bottom: 20px;
       background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
       background-position: center;
@@ -462,7 +573,123 @@ body {
             body > div.wrapper > div.ipad > div > div > a:hover {
               text-decoration: underline; }
             body > div.wrapper > div.ipad > div > div > a > i.fa-chevron-right {
-              font-size: 14px; } }
+              font-size: 14px; }
+    body > div.wrapper div.watch {
+      width: 100%;
+      height: 600px;
+      cursor: pointer;
+      background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_large_2x.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-flow: column wrap;
+      gap: 5px;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 50px; }
+      body > div.wrapper div.watch > div {
+        width: 40%;
+        height: 50px; }
+      body > div.wrapper div.watch > div:nth-of-type(1) {
+        display: flex;
+        justify-content: center; }
+        body > div.wrapper div.watch > div:nth-of-type(1) > img {
+          width: 200px;
+          height: auto; }
+      body > div.wrapper div.watch > div:nth-of-type(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body > div.wrapper div.watch > div:nth-of-type(2) > h2 {
+          color: white; }
+      body > div.wrapper div.watch > div:nth-of-type(3) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px; }
+        body > div.wrapper div.watch > div:nth-of-type(3) > a {
+          color: #0066cc;
+          font-size: 20px;
+          transition: 300ms; }
+          body > div.wrapper div.watch > div:nth-of-type(3) > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper div.watch > div:nth-of-type(3) > a > i.fa-chevron-right {
+            font-size: 14px; }
+    body > div.wrapper > div.pros {
+      width: 100%;
+      height: 625px;
+      padding: 10px;
+      display: flex;
+      gap: 15px; }
+      body > div.wrapper > div.pros > div {
+        width: inherit;
+        height: auto; }
+      body > div.wrapper > div.pros > div:nth-of-type(1) {
+        background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large_2x.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px;
+        gap: 5px; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div {
+          width: 50%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(1) > h1 {
+          color: white; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(2) > h3 {
+          color: white; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) {
+          display: flex;
+          gap: 20px; }
+          body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a {
+            color: #0066cc;
+            font-size: 18px;
+            transition: 300ms; }
+            body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a:hover {
+              text-decoration: underline; }
+            body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a > i.fa-chevron-right {
+              font-size: 12px; }
+      body > div.wrapper > div.pros > div:nth-of-type(2) {
+        background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large_2x.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px;
+        gap: 5px; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div {
+          width: 50%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(1) > img {
+          width: 30px;
+          height: auto; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(2) h1 {
+          font-size: 35px; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(3) h3 {
+          font-weight: unset; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a {
+          color: #0066cc;
+          font-size: 18px;
+          transition: 300ms; }
+          body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a > i.fa-chevron-right {
+            font-size: 12px;
+            padding-left: 5px; } }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   body > div.wrapper {
@@ -598,7 +825,6 @@ body {
     body > div.wrapper > div.gift {
       width: 100%;
       height: 600px;
-      background-color: aqua;
       background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
       background-position: center;
       background-size: cover;
@@ -631,7 +857,6 @@ body {
     body > div.wrapper > div.ipad {
       width: 100%;
       height: 600px;
-      background-color: aqua;
       margin-bottom: 20px;
       background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
       background-position: center;
@@ -667,7 +892,123 @@ body {
             body > div.wrapper > div.ipad > div > div > a:hover {
               text-decoration: underline; }
             body > div.wrapper > div.ipad > div > div > a > i.fa-chevron-right {
-              font-size: 14px; } }
+              font-size: 14px; }
+    body > div.wrapper div.watch {
+      width: 100%;
+      height: 600px;
+      cursor: pointer;
+      background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_large_2x.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-flow: column wrap;
+      gap: 5px;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 50px; }
+      body > div.wrapper div.watch > div {
+        width: 40%;
+        height: 50px; }
+      body > div.wrapper div.watch > div:nth-of-type(1) {
+        display: flex;
+        justify-content: center; }
+        body > div.wrapper div.watch > div:nth-of-type(1) > img {
+          width: 200px;
+          height: auto; }
+      body > div.wrapper div.watch > div:nth-of-type(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body > div.wrapper div.watch > div:nth-of-type(2) > h2 {
+          color: white; }
+      body > div.wrapper div.watch > div:nth-of-type(3) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px; }
+        body > div.wrapper div.watch > div:nth-of-type(3) > a {
+          color: #0066cc;
+          font-size: 20px;
+          transition: 300ms; }
+          body > div.wrapper div.watch > div:nth-of-type(3) > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper div.watch > div:nth-of-type(3) > a > i.fa-chevron-right {
+            font-size: 14px; }
+    body > div.wrapper > div.pros {
+      width: 100%;
+      height: 625px;
+      padding: 10px;
+      display: flex;
+      gap: 15px; }
+      body > div.wrapper > div.pros > div {
+        width: inherit;
+        height: auto; }
+      body > div.wrapper > div.pros > div:nth-of-type(1) {
+        background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large_2x.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px;
+        gap: 5px; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div {
+          width: 70%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(1) > h1 {
+          color: white; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(2) > h3 {
+          color: white; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) {
+          display: flex;
+          gap: 20px; }
+          body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a {
+            color: #0066cc;
+            font-size: 18px;
+            transition: 300ms; }
+            body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a:hover {
+              text-decoration: underline; }
+            body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a > i.fa-chevron-right {
+              font-size: 12px; }
+      body > div.wrapper > div.pros > div:nth-of-type(2) {
+        background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large_2x.jpg);
+        background-position: center;
+        background-size: 800px 625px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px;
+        gap: 5px; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div {
+          width: 50%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(1) > img {
+          width: 30px;
+          height: auto; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(2) h1 {
+          font-size: 35px; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(3) h3 {
+          font-weight: unset; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a {
+          color: #0066cc;
+          font-size: 18px;
+          transition: 300ms; }
+          body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a > i.fa-chevron-right {
+            font-size: 12px;
+            padding-left: 5px; } }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   body > div.wrapper {
@@ -806,7 +1147,6 @@ body {
     body > div.wrapper > div.gift {
       width: 100%;
       height: 600px;
-      background-color: aqua;
       background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
       background-position: center;
       background-size: cover;
@@ -839,7 +1179,6 @@ body {
     body > div.wrapper > div.ipad {
       width: 100%;
       height: 600px;
-      background-color: aqua;
       margin-bottom: 20px;
       background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
       background-position: center;
@@ -875,7 +1214,123 @@ body {
             body > div.wrapper > div.ipad > div > div > a:hover {
               text-decoration: underline; }
             body > div.wrapper > div.ipad > div > div > a > i.fa-chevron-right {
-              font-size: 14px; } }
+              font-size: 14px; }
+    body > div.wrapper div.watch {
+      width: 100%;
+      height: 600px;
+      cursor: pointer;
+      background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_large_2x.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-flow: column wrap;
+      gap: 5px;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 50px; }
+      body > div.wrapper div.watch > div {
+        width: 40%;
+        height: 50px; }
+      body > div.wrapper div.watch > div:nth-of-type(1) {
+        display: flex;
+        justify-content: center; }
+        body > div.wrapper div.watch > div:nth-of-type(1) > img {
+          width: 200px;
+          height: auto; }
+      body > div.wrapper div.watch > div:nth-of-type(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body > div.wrapper div.watch > div:nth-of-type(2) > h2 {
+          color: white; }
+      body > div.wrapper div.watch > div:nth-of-type(3) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px; }
+        body > div.wrapper div.watch > div:nth-of-type(3) > a {
+          color: #0066cc;
+          font-size: 20px;
+          transition: 300ms; }
+          body > div.wrapper div.watch > div:nth-of-type(3) > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper div.watch > div:nth-of-type(3) > a > i.fa-chevron-right {
+            font-size: 14px; }
+    body > div.wrapper > div.pros {
+      width: 100%;
+      height: 625px;
+      padding: 10px;
+      display: flex;
+      gap: 15px; }
+      body > div.wrapper > div.pros > div {
+        width: inherit;
+        height: auto; }
+      body > div.wrapper > div.pros > div:nth-of-type(1) {
+        background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large_2x.jpg);
+        background-position: center;
+        background-size: 1000px 625px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px;
+        gap: 5px; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div {
+          width: 95%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(1) > h1 {
+          color: white; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(2) > h3 {
+          color: white; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) {
+          display: flex;
+          gap: 20px; }
+          body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a {
+            color: #0066cc;
+            font-size: 18px;
+            transition: 300ms; }
+            body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a:hover {
+              text-decoration: underline; }
+            body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a > i.fa-chevron-right {
+              font-size: 12px; }
+      body > div.wrapper > div.pros > div:nth-of-type(2) {
+        background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large_2x.jpg);
+        background-position: center;
+        background-size: 600px 625px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px;
+        gap: 5px; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div {
+          width: 95%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(1) > img {
+          width: 30px;
+          height: auto; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(2) h1 {
+          font-size: 35px; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(3) h3 {
+          font-weight: unset; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a {
+          color: #0066cc;
+          font-size: 18px;
+          transition: 300ms; }
+          body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a > i.fa-chevron-right {
+            font-size: 12px;
+            padding-left: 5px; } }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
   body > div.wrapper {
@@ -926,7 +1381,7 @@ body {
         position: relative; }
         body > div.wrapper div.sMenu > div.grip > div.subMenu {
           width: calc(100vw - 20px);
-          height: 900px;
+          height: 500px;
           background-color: black;
           position: absolute;
           left: 0;
@@ -1118,11 +1573,10 @@ body {
               color: white; }
     body > div.wrapper > div.gift {
       width: 100%;
-      height: 600px;
-      background-color: aqua;
+      height: 500px;
       background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
       background-position: center;
-      background-size: cover;
+      background-size: 1000px 500px;
       cursor: pointer;
       display: flex;
       justify-content: center;
@@ -1136,7 +1590,7 @@ body {
         align-items: center; }
         body > div.wrapper > div.gift > div > h1 {
           color: white;
-          font-size: 30px;
+          font-size: 25px;
           margin-bottom: 10px; }
         body > div.wrapper > div.gift > div > h2 {
           color: white;
@@ -1152,12 +1606,10 @@ body {
             font-size: 14px; }
     body > div.wrapper > div.ipad {
       width: 100%;
-      height: 600px;
-      background-color: aqua;
-      margin-bottom: 20px;
+      height: 500px;
       background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
       background-position: center;
-      background-size: cover;
+      background-size: 1000px 500px;
       display: flex;
       justify-content: flex-end;
       align-items: center;
@@ -1188,7 +1640,123 @@ body {
             body > div.wrapper > div.ipad > div > div > a:hover {
               text-decoration: underline; }
             body > div.wrapper > div.ipad > div > div > a > i.fa-chevron-right {
-              font-size: 14px; } }
+              font-size: 14px; }
+    body > div.wrapper div.watch {
+      width: 100%;
+      height: 600px;
+      cursor: pointer;
+      background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_large_2x.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-flow: column wrap;
+      gap: 5px;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 50px; }
+      body > div.wrapper div.watch > div {
+        width: 60%;
+        height: 50px; }
+      body > div.wrapper div.watch > div:nth-of-type(1) {
+        display: flex;
+        justify-content: center; }
+        body > div.wrapper div.watch > div:nth-of-type(1) > img {
+          width: 200px;
+          height: auto; }
+      body > div.wrapper div.watch > div:nth-of-type(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body > div.wrapper div.watch > div:nth-of-type(2) > h2 {
+          color: white; }
+      body > div.wrapper div.watch > div:nth-of-type(3) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px; }
+        body > div.wrapper div.watch > div:nth-of-type(3) > a {
+          color: #0066cc;
+          font-size: 20px;
+          transition: 300ms; }
+          body > div.wrapper div.watch > div:nth-of-type(3) > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper div.watch > div:nth-of-type(3) > a > i.fa-chevron-right {
+            font-size: 14px; }
+    body > div.wrapper > div.pros {
+      width: 100%;
+      height: 1200px;
+      background-color: aqua;
+      display: flex;
+      flex-flow: column; }
+      body > div.wrapper > div.pros > div {
+        width: inherit;
+        height: inherit; }
+      body > div.wrapper > div.pros > div:nth-of-type(1) {
+        background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large_2x.jpg);
+        background-position: center;
+        background-size: 800px 625px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px;
+        gap: 5px; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div {
+          width: 95%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(1) > h1 {
+          color: white; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(2) > h3 {
+          color: white; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) {
+          display: flex;
+          gap: 20px; }
+          body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a {
+            color: #0066cc;
+            font-size: 18px;
+            transition: 300ms; }
+            body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a:hover {
+              text-decoration: underline; }
+            body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a > i.fa-chevron-right {
+              font-size: 12px; }
+      body > div.wrapper > div.pros > div:nth-of-type(2) {
+        background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large_2x.jpg);
+        background-position: center;
+        background-size: 800px 625px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px;
+        gap: 5px; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div {
+          width: 95%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(1) > img {
+          width: 30px;
+          height: auto; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(2) h1 {
+          font-size: 35px; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(3) h3 {
+          font-weight: unset; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a {
+          color: #0066cc;
+          font-size: 18px;
+          transition: 300ms; }
+          body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a > i.fa-chevron-right {
+            font-size: 12px;
+            padding-left: 5px; } }
 
 @media screen and (max-width: 575px) {
   body > div.wrapper {
@@ -1239,7 +1807,7 @@ body {
         position: relative; }
         body > div.wrapper div.sMenu > div.grip > div.subMenu {
           width: calc(100vw - 20px);
-          height: 900px;
+          height: 500px;
           background-color: black;
           position: absolute;
           left: 0;
@@ -1431,11 +1999,10 @@ body {
               color: white; }
     body > div.wrapper > div.gift {
       width: 100%;
-      height: 600px;
-      background-color: aqua;
+      height: 500px;
       background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
       background-position: center;
-      background-size: cover;
+      background-size: 1000px 500px;
       cursor: pointer;
       display: flex;
       justify-content: center;
@@ -1450,7 +2017,7 @@ body {
         body > div.wrapper > div.gift > div > h1 {
           color: white;
           font-size: 20px;
-          margin-bottom: 10px; }
+          margin-bottom: 20px; }
         body > div.wrapper > div.gift > div > h2 {
           color: white;
           font-size: 16px; }
@@ -1465,12 +2032,11 @@ body {
             font-size: 14px; }
     body > div.wrapper > div.ipad {
       width: 100%;
-      height: 600px;
-      background-color: aqua;
-      margin-bottom: 20px;
+      height: 500px;
       background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
       background-position: center;
-      background-size: cover;
+      background-size: 1000px 500px;
+      background-repeat: no-repeat;
       display: flex;
       justify-content: flex-end;
       align-items: center;
@@ -1501,4 +2067,122 @@ body {
             body > div.wrapper > div.ipad > div > div > a:hover {
               text-decoration: underline; }
             body > div.wrapper > div.ipad > div > div > a > i.fa-chevron-right {
-              font-size: 14px; } }
+              font-size: 14px; }
+    body > div.wrapper div.watch {
+      width: 100%;
+      height: 500px;
+      cursor: pointer;
+      background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_large_2x.jpg);
+      background-size: 1000px 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-flow: column wrap;
+      gap: 5px;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 50px; }
+      body > div.wrapper div.watch > div {
+        width: 90%;
+        height: 50px; }
+      body > div.wrapper div.watch > div:nth-of-type(1) {
+        display: flex;
+        justify-content: center; }
+        body > div.wrapper div.watch > div:nth-of-type(1) > img {
+          width: 200px;
+          height: auto; }
+      body > div.wrapper div.watch > div:nth-of-type(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body > div.wrapper div.watch > div:nth-of-type(2) > h2 {
+          color: white;
+          font-size: 18px; }
+      body > div.wrapper div.watch > div:nth-of-type(3) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px; }
+        body > div.wrapper div.watch > div:nth-of-type(3) > a {
+          color: #0066cc;
+          font-size: 20px;
+          transition: 300ms;
+          font-size: 14px; }
+          body > div.wrapper div.watch > div:nth-of-type(3) > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper div.watch > div:nth-of-type(3) > a > i.fa-chevron-right {
+            font-size: 14px; }
+    body > div.wrapper > div.pros {
+      width: 100%;
+      height: 1200px;
+      background-color: aqua;
+      display: flex;
+      flex-flow: column; }
+      body > div.wrapper > div.pros > div {
+        width: inherit;
+        height: inherit; }
+      body > div.wrapper > div.pros > div:nth-of-type(1) {
+        background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large_2x.jpg);
+        background-position: center;
+        background-size: 800px 625px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px;
+        gap: 5px; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div {
+          width: 95%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(1) > h1 {
+          color: white; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(2) > h3 {
+          color: white; }
+        body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) {
+          display: flex;
+          gap: 20px; }
+          body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a {
+            color: #0066cc;
+            font-size: 18px;
+            transition: 300ms; }
+            body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a:hover {
+              text-decoration: underline; }
+            body > div.wrapper > div.pros > div:nth-of-type(1) > div:nth-of-type(3) > a > i.fa-chevron-right {
+              font-size: 12px; }
+      body > div.wrapper > div.pros > div:nth-of-type(2) {
+        background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large_2x.jpg);
+        background-position: center;
+        background-size: 800px 625px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px;
+        gap: 5px; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div {
+          width: 95%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(1) > img {
+          width: 30px;
+          height: auto; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(2) h1 {
+          font-size: 35px; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(3) h3 {
+          font-weight: unset; }
+        body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a {
+          color: #0066cc;
+          font-size: 18px;
+          transition: 300ms; }
+          body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a:hover {
+            text-decoration: underline; }
+          body > div.wrapper > div.pros > div:nth-of-type(2) > div:nth-of-type(4) > a > i.fa-chevron-right {
+            font-size: 12px;
+            padding-left: 5px; } }
