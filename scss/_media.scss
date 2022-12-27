@@ -622,6 +622,60 @@ $sm: 576px;
             }
           }
           //end row products3
+          //make apple Tv swiper
+          >div.tv{
+            width: 100%;
+            height: 628px;
+            margin-bottom: 30px;
+            >div.ShilaTv{
+              >div.swiper-wrapper{
+                >div.swiper-slide{
+                  position: relative;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  cursor: pointer;
+                  >img{
+                    width: inherit;
+                    object-fit: cover;
+                    object-position: center;
+                  }
+                  >div:nth-of-type(1){
+                    width: 150px;
+                    height: 45px;
+                    background-color: #fff;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 50px;
+                    left: 50px;
+                    border-radius: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    >i.fa-circle-play{
+                      font-size: 20px;
+                    }
+                  }
+                  >div:nth-of-type(2){
+                    width: 550px;
+                    height: 50px;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 50px;
+                    left: 220px;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    >h3{
+                      color: white;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end apple Tv swiper
         }
       }
     }

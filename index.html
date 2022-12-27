@@ -623,6 +623,55 @@
         </div>
       </div>
       <!--end row prodcuts3-->
+      <!--make apple Tv swiper-->
+      <div class="tv">
+        <div class="swiper ShilaTv">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/Jennifer Aniston.jpg" alt="">
+              <div><h3>Ver ahora</h3><i class="fa-solid fa-circle-play"></i></div>
+              <div><h3>Drama. Ver gratis la 1.ª temporada en Apple Tv+</h3></div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/ted.jpg" alt="">
+              <div><h3>Ver ahora</h3><i class="fa-solid fa-circle-play"></i></div>
+              <div><h3>Comedia. Ver gratis la 1.ª temporada en Apple Tv+</h3></div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/NightServante.jpg" alt="">
+              <div><h3>Ver ahora</h3><i class="fa-solid fa-circle-play"></i></div>
+              <div><h3>Suspense. Ver gratis la 1.ª temporada en Apple Tv+</h3></div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/humanidad.jpg" alt="">
+              <div><h3>Ver ahora</h3><i class="fa-solid fa-circle-play"></i></div>
+              <div><h3>Drama. Ver gratis la 1.ª temporada en Apple Tv+</h3></div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/will_smith.jpg" alt="">
+              <div><h3>Ver ahora</h3><i class="fa-solid fa-circle-play"></i></div>
+              <div><h3>Drama. Inspirada en una conmovedora historia real.</h3></div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slow_horses.jpg" alt="">
+              <div><h3>Ver ahora</h3><i class="fa-solid fa-circle-play"></i></div>
+              <div><h3>Suspense. Espías de segunda</h3></div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/Navidad.jpg" alt="">
+              <div><h3>Ver ahora</h3><i class="fa-solid fa-circle-play"></i></div>
+              <div><h3>Comedia. Una nueva comedia musical basada en el clásico navideño.</h3></div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/SelenaGomez.jpg" alt="">
+              <div><h3>Ver ahora</h3><i class="fa-solid fa-circle-play"></i></div>
+              <div><h3>Documental. Con cada aliento, un paso más.</h3></div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!--end apple Tv swiper-->
     </div>
     <script src="./swiper/swiper-bundle.min.js"></script>
     <script>
@@ -690,6 +739,44 @@
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
+        },
+      });
+      var swiper = new Swiper(".ShilaTv", {
+        slidesPerView: 1.2,
+        spaceBetween: 15,
+        effect: "coverflow",
+        loop: "true",
+        loopFillGroupWithBlank: "true",
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        centeredSlides: "true",
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          450: {
+            slidesPerView: 1.3,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 1.1,
+            spaceBetween: 20,
+          },
+          992: {
+            slidesPerView: 1.3,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 1.2,
+            spaceBetween: 15,
+          },
+          1400: {
+            slidesPerView: 1.2,
+            spaceBetween: 15,
+          },
         },
       });
       let sMenu = document.querySelector("div.sMenu>div:nth-of-type(1)");
