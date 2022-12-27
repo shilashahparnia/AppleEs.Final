@@ -317,6 +317,7 @@ $sm: 576px;
             height: 625px;
             padding: 10px;
             display: flex;
+            cursor: pointer;
             gap: 15px;
             > div {
               width: inherit;
@@ -417,6 +418,210 @@ $sm: 576px;
             }
           }
           //end row products
+          //make row products2
+          > div.pros2 {
+            width: 100%;
+            height: 625px;
+            padding: 10px;
+            cursor: pointer;
+            display: flex;
+            gap: 15px;
+            > div {
+              width: inherit;
+              height: auto;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_airpods_pro_avail__gaxggskofx6y_large_2x.jpg);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 50%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 50%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > img {
+                  width: 150px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(2) {
+                h3 {
+                  font-weight: unset;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products2
+          //make row products3
+          > div.pros3 {
+            width: 100%;
+            height: 625px;
+            padding: 10px;
+            cursor: pointer;
+            display: flex;
+            gap: 15px;
+            > div {
+              width: inherit;
+              height: auto;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_macbookair__fywl7i82fueu_large_2x.png);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 50%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: black;
+                }
+                > img {
+                  width: 50px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/tile_homepod_mini__b73w4z3ljymu_large_2x.jpg);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 50%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                display: flex;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products3
         }
       }
     }
@@ -734,6 +939,7 @@ $sm: 576px;
             width: 100%;
             height: 625px;
             padding: 10px;
+            cursor: pointer;
             display: flex;
             gap: 15px;
             > div {
@@ -835,6 +1041,210 @@ $sm: 576px;
             }
           }
           //end row products
+          //make row products2
+          > div.pros2 {
+            width: 100%;
+            height: 625px;
+            padding: 10px;
+            cursor: pointer;
+            display: flex;
+            gap: 15px;
+            > div {
+              width: inherit;
+              height: auto;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_airpods_pro_avail__gaxggskofx6y_large_2x.jpg);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 50%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 50%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > img {
+                  width: 150px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(2) {
+                h3 {
+                  font-weight: unset;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products2
+          //make row products3
+          > div.pros3 {
+            width: 100%;
+            height: 625px;
+            padding: 10px;
+            cursor: pointer;
+            display: flex;
+            gap: 15px;
+            > div {
+              width: inherit;
+              height: auto;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_macbookair__fywl7i82fueu_large_2x.png);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 50%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: black;
+                }
+                > img {
+                  width: 50px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/tile_homepod_mini__b73w4z3ljymu_large_2x.jpg);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 50%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products3
         }
       }
     }
@@ -1152,6 +1562,7 @@ $sm: 576px;
             width: 100%;
             height: 625px;
             padding: 10px;
+            cursor: pointer;
             display: flex;
             gap: 15px;
             > div {
@@ -1253,6 +1664,210 @@ $sm: 576px;
             }
           }
           //end row products
+          //make row products2
+          > div.pros2 {
+            width: 100%;
+            height: 625px;
+            padding: 10px;
+            cursor: pointer;
+            display: flex;
+            gap: 15px;
+            > div {
+              width: inherit;
+              height: auto;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_airpods_pro_avail__gaxggskofx6y_large_2x.jpg);
+              background-position: center;
+              background-size: 1000px 625px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 70%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+              background-position: center;
+              background-size: 900px 625px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 70%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > img {
+                  width: 150px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(2) {
+                h3 {
+                  font-weight: unset;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products2
+          //make row products3
+          > div.pros3 {
+            width: 100%;
+            height: 625px;
+            padding: 10px;
+            cursor: pointer;
+            display: flex;
+            gap: 15px;
+            > div {
+              width: inherit;
+              height: auto;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_macbookair__fywl7i82fueu_large_2x.png);
+              background-position: center;
+              background-size: 1300px 625px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 70%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: black;
+                }
+                > img {
+                  width: 50px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/tile_homepod_mini__b73w4z3ljymu_large_2x.jpg);
+              background-position: center;
+              background-size: 900px 625px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 70%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products3
         }
       }
     }
@@ -1572,8 +2187,9 @@ $sm: 576px;
           //make row products
           > div.pros {
             width: 100%;
-            height: 625px;
+            height: 500px;
             padding: 10px;
+            cursor: pointer;
             display: flex;
             gap: 15px;
             > div {
@@ -1583,13 +2199,13 @@ $sm: 576px;
             > div:nth-of-type(1) {
               background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large_2x.jpg);
               background-position: center;
-              background-size: 1000px 625px;
+              background-size: 1000px 500px;
               background-repeat: no-repeat;
               display: flex;
               flex-flow: column wrap;
               justify-content: flex-start;
               align-items: center;
-              padding: 50px;
+              padding: 20px;
               gap: 5px;
               > div {
                 width: 95%;
@@ -1627,13 +2243,13 @@ $sm: 576px;
             > div:nth-of-type(2) {
               background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large_2x.jpg);
               background-position: center;
-              background-size: 600px 625px;
+              background-size: 600px 500px;
               background-repeat: no-repeat;
               display: flex;
               flex-flow: column wrap;
               justify-content: flex-start;
               align-items: center;
-              padding: 50px;
+              padding: 20px;
               gap: 5px;
               > div {
                 width: 95%;
@@ -1675,6 +2291,210 @@ $sm: 576px;
             }
           }
           //end row products
+          //make row products2
+          > div.pros2 {
+            width: 100%;
+            height: 500px;
+            padding: 10px;
+            cursor: pointer;
+            display: flex;
+            gap: 15px;
+            > div {
+              width: inherit;
+              height: auto;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_airpods_pro_avail__gaxggskofx6y_large_2x.jpg);
+              background-position: center;
+              background-size: 900px 500px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 90%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+              background-position: center;
+              background-size: 700px 500px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 90%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > img {
+                  width: 150px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(2) {
+                h3 {
+                  font-weight: unset;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products2
+          //make row products3
+          > div.pros3 {
+            width: 100%;
+            height: 500px;
+            padding: 10px;
+            cursor: pointer;
+            display: flex;
+            gap: 15px;
+            > div {
+              width: inherit;
+              height: auto;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_macbookair__fywl7i82fueu_large_2x.png);
+              background-position: center;
+              background-size: 1000px 500px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 90%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: black;
+                }
+                > img {
+                  width: 50px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/tile_homepod_mini__b73w4z3ljymu_large_2x.jpg);
+              background-position: center;
+              background-size: 600px 500px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 90%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products3
         }
       }
     }
@@ -2111,9 +2931,9 @@ $sm: 576px;
           //make row products
           > div.pros {
             width: 100%;
-            height: 1200px;
-            background-color: aqua;
+            height: 1000px;
             display: flex;
+            cursor: pointer;
             flex-flow: column;
             > div {
               width: inherit;
@@ -2122,7 +2942,7 @@ $sm: 576px;
             > div:nth-of-type(1) {
               background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large_2x.jpg);
               background-position: center;
-              background-size: 800px 625px;
+              background-size: 800px 500px;
               background-repeat: no-repeat;
               display: flex;
               flex-flow: column wrap;
@@ -2132,7 +2952,7 @@ $sm: 576px;
               gap: 5px;
               > div {
                 width: 95%;
-                height: 40px;
+                height: 30px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -2214,6 +3034,208 @@ $sm: 576px;
             }
           }
           //end row products
+          //make row products2
+          > div.pros2 {
+            width: 100%;
+            height: 1000px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            > div {
+              width: inherit;
+              height: inherit;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_airpods_pro_avail__gaxggskofx6y_large_2x.jpg);
+              background-position: center;
+              background-size: 800px 625px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 95%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+              background-position: center;
+              background-size: 1000px 625px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 95%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > img {
+                  width: 150px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(2) {
+                h3 {
+                  font-weight: unset;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products2
+          //make row products3
+          > div.pros3 {
+            width: 100%;
+            height: 1000px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            > div {
+              width: inherit;
+              height: inherit;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_macbookair__fywl7i82fueu_large_2x.png);
+              background-position: center;
+              background-size: 1000px 500px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 90%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: black;
+                }
+                > img {
+                  width: 50px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/tile_homepod_mini__b73w4z3ljymu_large_2x.jpg);
+              background-position: center;
+              background-size: 900px 500px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 90%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products3
         }
       }
     }
@@ -2654,7 +3676,7 @@ $sm: 576px;
           > div.pros {
             width: 100%;
             height: 1200px;
-            background-color: aqua;
+            cursor: pointer;
             display: flex;
             flex-flow: column;
             > div {
@@ -2756,6 +3778,208 @@ $sm: 576px;
             }
           }
           //end row products
+          //make row products2
+          > div.pros2 {
+            width: 100%;
+            height: 1000px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            > div {
+              width: inherit;
+              height: inherit;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_airpods_pro_avail__gaxggskofx6y_large_2x.jpg);
+              background-position: center;
+              background-size: 800px 625px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 95%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+              background-position: center;
+              background-size: 1000px 625px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 95%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > img {
+                  width: 150px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(2) {
+                h3 {
+                  font-weight: unset;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products2
+          //make row products3
+          > div.pros3 {
+            width: 100%;
+            height: 1000px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            > div {
+              width: inherit;
+              height: inherit;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_macbookair__fywl7i82fueu_large_2x.png);
+              background-position: center;
+              background-size: 1000px 500px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 90%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: black;
+                }
+                > img {
+                  width: 50px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/tile_homepod_mini__b73w4z3ljymu_large_2x.jpg);
+              background-position: center;
+              background-size: 700px 500px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 90%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products3
         }
       }
     }
