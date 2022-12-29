@@ -2395,7 +2395,7 @@ $sm: 576px;
             > div.grip {
               position: relative;
               > div.subMenu {
-                width: calc(101vw - 20px);
+                width: calc(101vw - 25px);
                 height: 500px;
                 background-color: black;
                 position: absolute;
@@ -3293,7 +3293,7 @@ $sm: 576px;
             > div.grip {
               position: relative;
               > div.subMenu {
-                width: calc(101vw - 20px);
+                width: calc(101vw - 24px);
                 height: 500px;
                 background-color: black;
                 position: absolute;
@@ -4145,7 +4145,7 @@ $sm: 576px;
           }
           // make md, sm, xs menu
           > div.sMenu {
-            width: calc(100vw - 20px);
+            width: 100%;
             height: 44px;
             background-color: #333333;
             display: flex;
@@ -4188,7 +4188,7 @@ $sm: 576px;
             > div.grip {
               position: relative;
               > div.subMenu {
-                width: calc(100vw - 20px);
+                width: calc(100vw - 17px);
                 height: 500px;
                 background-color: black;
                 position: absolute;
