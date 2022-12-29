@@ -525,7 +525,7 @@ body {
     body > div.wrapper > div.tv {
       width: 100%;
       height: 628px;
-      margin-bottom: 30px; }
+      margin-bottom: 20px; }
       body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide {
         position: relative;
         display: flex;
@@ -562,7 +562,82 @@ body {
           justify-content: left;
           align-items: center; }
           body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(2) > h3 {
-            color: white; } }
+            color: white; }
+    body > div.wrapper > footer.big {
+      width: 100%;
+      height: 520px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px; }
+      body > div.wrapper > footer.big > div {
+        width: 190px;
+        height: 500px; }
+        body > div.wrapper > footer.big > div > nav {
+          width: inherit;
+          height: inherit; }
+          body > div.wrapper > footer.big > div > nav > ul {
+            width: inherit;
+            height: inherit;
+            list-style: none;
+            display: flex;
+            gap: 5px;
+            flex-direction: column; }
+            body > div.wrapper > footer.big > div > nav > ul > li {
+              width: auto;
+              height: 28px;
+              display: flex;
+              align-items: center; }
+              body > div.wrapper > footer.big > div > nav > ul > li > a {
+                color: #818080;
+                font-size: 14px;
+                transition: 200ms; }
+                body > div.wrapper > footer.big > div > nav > ul > li > a:hover {
+                  text-decoration: underline;
+                  color: black; }
+    body > div.wrapper > footer.small {
+      display: none; }
+    body > div.wrapper > footer.big2 {
+      width: 68%;
+      height: 100px;
+      margin: 30px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 5px; }
+      body > div.wrapper > footer.big2 > div {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(1) {
+        border-bottom: 0.5px solid #bfbfbf; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(1) > p {
+          color: #818080;
+          font-size: 14px; }
+          body > div.wrapper > footer.big2 > div:nth-of-type(1) > p > a {
+            color: #0066cc;
+            font-size: 14px;
+            transition: 300ms; }
+            body > div.wrapper > footer.big2 > div:nth-of-type(1) > p > a:hover {
+              text-decoration: underline; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(2) {
+        justify-content: space-between; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(2) > p:nth-of-type(1) {
+          color: #818080;
+          font-size: 13px; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(2) > p:nth-of-type(2) {
+          color: black;
+          font-size: 13px; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(3) > a {
+        color: black;
+        font-size: 14px;
+        transition: 300ms; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(3) > a:hover {
+          text-decoration: underline; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(3) > span {
+        color: #818080;
+        margin: 0 10px; } }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   body > div.wrapper {
@@ -1032,7 +1107,124 @@ body {
             body > div.wrapper > div.pros3 > div:nth-of-type(2) > div:nth-of-type(2) > a:hover {
               text-decoration: underline; }
             body > div.wrapper > div.pros3 > div:nth-of-type(2) > div:nth-of-type(2) > a > i.fa-chevron-right {
-              font-size: 12px; } }
+              font-size: 12px; }
+    body > div.wrapper > div.tv {
+      width: 100%;
+      height: 628px;
+      margin-bottom: 30px; }
+      body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > img {
+          width: inherit;
+          object-fit: fill;
+          object-position: center; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(1) {
+          width: 120px;
+          height: 45px;
+          background-color: #fff;
+          z-index: 2;
+          position: absolute;
+          bottom: 50px;
+          left: 20px;
+          border-radius: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5px; }
+          body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(1) > i.fa-circle-play {
+            font-size: 20px; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(2) {
+          width: 550px;
+          height: 50px;
+          z-index: 2;
+          position: absolute;
+          bottom: 50px;
+          left: 150px;
+          display: flex;
+          justify-content: left;
+          align-items: center; }
+          body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(2) > h3 {
+            color: white; }
+    body > div.wrapper > footer.big {
+      width: 100%;
+      height: 520px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px; }
+      body > div.wrapper > footer.big > div {
+        width: 190px;
+        height: 500px; }
+        body > div.wrapper > footer.big > div > nav {
+          width: inherit;
+          height: inherit; }
+          body > div.wrapper > footer.big > div > nav > ul {
+            width: inherit;
+            height: inherit;
+            list-style: none;
+            display: flex;
+            gap: 5px;
+            flex-direction: column; }
+            body > div.wrapper > footer.big > div > nav > ul > li {
+              width: auto;
+              height: 28px;
+              display: flex;
+              align-items: center; }
+              body > div.wrapper > footer.big > div > nav > ul > li > a {
+                color: #818080;
+                font-size: 14px;
+                transition: 200ms; }
+                body > div.wrapper > footer.big > div > nav > ul > li > a:hover {
+                  text-decoration: underline;
+                  color: black; }
+    body > div.wrapper > footer.small {
+      display: none; }
+    body > div.wrapper > footer.big2 {
+      width: 68%;
+      height: 100px;
+      margin: 30px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 5px; }
+      body > div.wrapper > footer.big2 > div {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(1) {
+        border-bottom: 0.5px solid #bfbfbf; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(1) > p {
+          color: #818080;
+          font-size: 14px; }
+          body > div.wrapper > footer.big2 > div:nth-of-type(1) > p > a {
+            color: #0066cc;
+            font-size: 14px;
+            transition: 300ms; }
+            body > div.wrapper > footer.big2 > div:nth-of-type(1) > p > a:hover {
+              text-decoration: underline; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(2) {
+        justify-content: space-between; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(2) > p:nth-of-type(1) {
+          color: #818080;
+          font-size: 13px; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(2) > p:nth-of-type(2) {
+          color: black;
+          font-size: 13px; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(3) > a {
+        color: black;
+        font-size: 14px;
+        transition: 300ms; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(3) > a:hover {
+          text-decoration: underline; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(3) > span {
+        color: #818080;
+        margin: 0 10px; } }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   body > div.wrapper {
@@ -1502,48 +1694,270 @@ body {
             body > div.wrapper > div.pros3 > div:nth-of-type(2) > div:nth-of-type(2) > a:hover {
               text-decoration: underline; }
             body > div.wrapper > div.pros3 > div:nth-of-type(2) > div:nth-of-type(2) > a > i.fa-chevron-right {
-              font-size: 12px; } }
+              font-size: 12px; }
+    body > div.wrapper > div.tv {
+      width: 100%;
+      height: 628px;
+      margin-bottom: 30px; }
+      body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > img {
+          width: 900px;
+          object-fit: fill;
+          object-position: center; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(1) {
+          width: 140px;
+          height: 45px;
+          background-color: #fff;
+          z-index: 2;
+          position: absolute;
+          bottom: 50px;
+          left: -40px;
+          border-radius: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5px; }
+          body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(1) > i.fa-circle-play {
+            font-size: 20px; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(2) {
+          width: 550px;
+          height: 50px;
+          z-index: 2;
+          position: absolute;
+          bottom: 50px;
+          left: 110px;
+          display: flex;
+          justify-content: left;
+          align-items: center; }
+          body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(2) > h3 {
+            color: white; }
+    body > div.wrapper > footer.big {
+      width: 100%;
+      height: 520px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px; }
+      body > div.wrapper > footer.big > div {
+        width: 170px;
+        height: 500px; }
+        body > div.wrapper > footer.big > div > nav {
+          width: inherit;
+          height: inherit; }
+          body > div.wrapper > footer.big > div > nav > ul {
+            width: inherit;
+            height: inherit;
+            list-style: none;
+            display: flex;
+            gap: 5px;
+            flex-direction: column; }
+            body > div.wrapper > footer.big > div > nav > ul > li {
+              width: auto;
+              height: 28px;
+              display: flex;
+              align-items: center; }
+              body > div.wrapper > footer.big > div > nav > ul > li > a {
+                color: #818080;
+                font-size: 14px;
+                transition: 200ms; }
+                body > div.wrapper > footer.big > div > nav > ul > li > a:hover {
+                  text-decoration: underline;
+                  color: black; }
+    body > div.wrapper > footer.small {
+      display: none; }
+    body > div.wrapper > footer.big2 {
+      width: 80%;
+      height: 100px;
+      margin: 30px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 5px; }
+      body > div.wrapper > footer.big2 > div {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(1) {
+        border-bottom: 0.5px solid #bfbfbf; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(1) > p {
+          color: #818080;
+          font-size: 14px; }
+          body > div.wrapper > footer.big2 > div:nth-of-type(1) > p > a {
+            color: #0066cc;
+            font-size: 14px;
+            transition: 300ms; }
+            body > div.wrapper > footer.big2 > div:nth-of-type(1) > p > a:hover {
+              text-decoration: underline; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(2) {
+        justify-content: space-between; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(2) > p:nth-of-type(1) {
+          color: #818080;
+          font-size: 13px; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(2) > p:nth-of-type(2) {
+          color: black;
+          font-size: 13px; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(3) > a {
+        color: black;
+        font-size: 14px;
+        transition: 300ms; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(3) > a:hover {
+          text-decoration: underline; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(3) > span {
+        color: #818080;
+        margin: 0 10px; } }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   body > div.wrapper {
     width: 100%; }
     body > div.wrapper > div.menu {
+      display: none; }
+    body > div.wrapper > div.sMenu {
       width: 100%;
       height: 44px;
-      background-color: #333333; }
-      body > div.wrapper > div.menu > nav {
-        width: inherit;
-        height: inherit; }
-        body > div.wrapper > div.menu > nav > ul {
+      background-color: #333333;
+      display: flex;
+      justify-content: space-between; }
+      body > div.wrapper > div.sMenu > div.grip,
+      body > div.wrapper > div.sMenu > div.icon,
+      body > div.wrapper > div.sMenu > div.shop {
+        width: 10%;
+        height: inherit;
+        display: flex;
+        justify-content: center; }
+        body > div.wrapper > div.sMenu > div.grip > a,
+        body > div.wrapper > div.sMenu > div.icon > a,
+        body > div.wrapper > div.sMenu > div.shop > a {
           width: inherit;
-          height: inherit;
-          list-style: none;
-          display: flex;
-          justify-content: center;
-          gap: 0 18px; }
-          body > div.wrapper > div.menu > nav > ul > li {
-            width: auto;
-            height: inherit; }
-            body > div.wrapper > div.menu > nav > ul > li > a {
-              width: auto;
+          height: auto;
+          line-height: 44px;
+          color: #bfbfbf;
+          display: block;
+          transition: 300ms; }
+          body > div.wrapper > div.sMenu > div.grip > a:hover,
+          body > div.wrapper > div.sMenu > div.icon > a:hover,
+          body > div.wrapper > div.sMenu > div.shop > a:hover {
+            color: white; }
+          body > div.wrapper > div.sMenu > div.grip > a > i.fa-grip-lines,
+          body > div.wrapper > div.sMenu > div.icon > a > i.fa-grip-lines,
+          body > div.wrapper > div.sMenu > div.shop > a > i.fa-grip-lines {
+            font-size: 20px;
+            line-height: 44px; }
+      body > div.wrapper > div.sMenu > div.icon > img,
+      body > div.wrapper > div.sMenu > div.shop > img {
+        width: 15px;
+        height: auto;
+        filter: invert(30%);
+        transition: 300ms; }
+        body > div.wrapper > div.sMenu > div.icon > img:hover,
+        body > div.wrapper > div.sMenu > div.shop > img:hover {
+          filter: brightness(100%); }
+      body > div.wrapper > div.sMenu > div.grip {
+        position: relative; }
+        body > div.wrapper > div.sMenu > div.grip > div.subMenu {
+          width: calc(101vw - 20px);
+          height: 500px;
+          background-color: black;
+          position: absolute;
+          left: 0;
+          top: 44px;
+          z-index: 3;
+          display: none; }
+          body > div.wrapper > div.sMenu > div.grip > div.subMenu > div.search {
+            width: 90%;
+            height: 40px;
+            background-color: #333333;
+            border-radius: 10px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-around; }
+            body > div.wrapper > div.sMenu > div.grip > div.subMenu > div.search > i.fa-magnifying-glass {
+              line-height: 40px;
+              font-size: 15px;
+              color: grey;
+              margin-left: 10px; }
+            body > div.wrapper > div.sMenu > div.grip > div.subMenu > div.search > div.input {
+              width: 90%;
               height: inherit;
-              line-height: 44px;
-              text-decoration: none;
-              color: #bfbfbf;
-              display: block;
-              font-size: 14px;
-              transition: 300ms; }
-              body > div.wrapper > div.menu > nav > ul > li > a:hover {
-                color: white; }
-              body > div.wrapper > div.menu > nav > ul > li > a > img {
-                filter: invert(30%);
-                transition: 300ms; }
-                body > div.wrapper > div.menu > nav > ul > li > a > img:hover {
-                  filter: brightness(100%); }
-              body > div.wrapper > div.menu > nav > ul > li > a > i {
-                font-size: 15px; }
-    body > div.wrapper div.sMenu {
-      display: none; }
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              body > div.wrapper > div.sMenu > div.grip > div.subMenu > div.search > div.input > input {
+                width: 100%;
+                height: 30px;
+                border: unset;
+                background-color: #333333;
+                font-size: 16px;
+                outline: none; }
+          body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav {
+            width: 90%;
+            height: 40px;
+            margin: 0 auto; }
+            body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav > ul {
+              width: 100%;
+              height: inherit; }
+              body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav > ul > li {
+                width: 100%;
+                height: inherit; }
+                body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav > ul > li > a {
+                  width: 100%;
+                  height: inherit;
+                  display: block;
+                  line-height: 40px;
+                  color: #bfbfbf;
+                  border-bottom: 0.5px solid #bfbfbf;
+                  font-size: 18px; }
+                  body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav > ul > li > a:hover {
+                    color: white; }
+      body > div.wrapper > div.sMenu > div.shop {
+        position: relative; }
+        body > div.wrapper > div.sMenu > div.shop > div.bolsa {
+          width: calc(101vw - 20px);
+          height: 300px;
+          background-color: whitesmoke;
+          position: absolute;
+          right: 0;
+          top: 44px;
+          z-index: 4;
+          display: none; }
+          body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.empty {
+            width: 90%;
+            height: 50px;
+            margin: 10px auto;
+            border-bottom: 0.5px solid #bfbfbf;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+            body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.empty > p {
+              color: grey; }
+          body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul {
+            width: 90%;
+            height: 270px;
+            margin: 0 auto;
+            display: flex;
+            flex-flow: column wrap;
+            gap: 5px; }
+            body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul > div {
+              width: 100%;
+              height: 40px;
+              border-bottom: 0.5px solid #bfbfbf; }
+              body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul > div > a {
+                width: inherit;
+                height: inherit;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                padding: 10px; }
+                body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul > div > a > img {
+                  width: 30px; }
+                body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul > div > a > p {
+                  color: #0066cc; }
     body > div.wrapper > div.products {
       width: 100%;
       height: 230px;
@@ -1975,57 +2389,171 @@ body {
             body > div.wrapper > div.pros3 > div:nth-of-type(2) > div:nth-of-type(2) > a:hover {
               text-decoration: underline; }
             body > div.wrapper > div.pros3 > div:nth-of-type(2) > div:nth-of-type(2) > a > i.fa-chevron-right {
-              font-size: 12px; } }
+              font-size: 12px; }
+    body > div.wrapper > div.tv {
+      width: 100%;
+      height: 500px;
+      margin-bottom: 30px; }
+      body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > img {
+          width: 700px;
+          height: 500px;
+          object-fit: fill;
+          object-position: center; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(1) {
+          width: 115px;
+          height: 45px;
+          background-color: #fff;
+          z-index: 2;
+          position: absolute;
+          bottom: 50px;
+          left: -10px;
+          border-radius: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5px; }
+          body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(1) > i.fa-circle-play {
+            font-size: 20px; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(2) {
+          width: 300px;
+          height: 50px;
+          z-index: 2;
+          position: absolute;
+          bottom: 50px;
+          left: 120px;
+          display: flex;
+          justify-content: left;
+          align-items: center; }
+          body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(2) > h3 {
+            color: white; }
+    body > div.wrapper > footer.big {
+      display: none; }
+    body > div.wrapper > footer.small {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 20px; }
+      body > div.wrapper > footer.small > nav {
+        width: inherit;
+        height: inherit; }
+        body > div.wrapper > footer.small > nav > ul {
+          width: inherit;
+          height: inherit;
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          gap: 5px; }
+          body > div.wrapper > footer.small > nav > ul > li {
+            width: auto;
+            height: inherit;
+            border-bottom: 0.5px solid #bfbfbf;
+            cursor: pointer;
+            display: flex;
+            align-items: center; }
+            body > div.wrapper > footer.small > nav > ul > li > a {
+              color: #818080;
+              padding-left: 20px;
+              font-size: 14px;
+              transition: 200ms; }
+              body > div.wrapper > footer.small > nav > ul > li > a:hover {
+                text-decoration: underline;
+                color: black; }
+    body > div.wrapper > footer.big2 {
+      width: 95%;
+      height: 100px;
+      margin: 30px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 5px; }
+      body > div.wrapper > footer.big2 > div {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(1) {
+        border-bottom: 0.5px solid #bfbfbf; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(1) > p {
+          color: #818080;
+          font-size: 14px; }
+          body > div.wrapper > footer.big2 > div:nth-of-type(1) > p > a {
+            color: #0066cc;
+            font-size: 14px;
+            transition: 300ms; }
+            body > div.wrapper > footer.big2 > div:nth-of-type(1) > p > a:hover {
+              text-decoration: underline; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(2) {
+        justify-content: space-between; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(2) > p:nth-of-type(1) {
+          color: #818080;
+          font-size: 13px; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(2) > p:nth-of-type(2) {
+          color: black;
+          font-size: 13px; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(3) > a {
+        color: black;
+        font-size: 14px;
+        transition: 300ms; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(3) > a:hover {
+          text-decoration: underline; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(3) > span {
+        color: #818080;
+        margin: 0 8px; } }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
   body > div.wrapper {
     width: 100%; }
-    body > div.wrapper div.menu {
+    body > div.wrapper > div.menu {
       display: none; }
-    body > div.wrapper div.sMenu {
-      width: calc(100vw - 20px);
+    body > div.wrapper > div.sMenu {
+      width: 100%;
       height: 44px;
       background-color: #333333;
       display: flex;
       justify-content: space-between; }
-      body > div.wrapper div.sMenu > div.grip,
-      body > div.wrapper div.sMenu div.icon,
-      body > div.wrapper div.sMenu div.shop {
+      body > div.wrapper > div.sMenu > div.grip,
+      body > div.wrapper > div.sMenu > div.icon,
+      body > div.wrapper > div.sMenu > div.shop {
         width: 10%;
         height: inherit;
         display: flex;
         justify-content: center; }
-        body > div.wrapper div.sMenu > div.grip > a,
-        body > div.wrapper div.sMenu div.icon > a,
-        body > div.wrapper div.sMenu div.shop > a {
+        body > div.wrapper > div.sMenu > div.grip > a,
+        body > div.wrapper > div.sMenu > div.icon > a,
+        body > div.wrapper > div.sMenu > div.shop > a {
           width: inherit;
           height: auto;
           line-height: 44px;
           color: #bfbfbf;
           display: block;
           transition: 300ms; }
-          body > div.wrapper div.sMenu > div.grip > a:hover,
-          body > div.wrapper div.sMenu div.icon > a:hover,
-          body > div.wrapper div.sMenu div.shop > a:hover {
+          body > div.wrapper > div.sMenu > div.grip > a:hover,
+          body > div.wrapper > div.sMenu > div.icon > a:hover,
+          body > div.wrapper > div.sMenu > div.shop > a:hover {
             color: white; }
-          body > div.wrapper div.sMenu > div.grip > a > i.fa-grip-lines,
-          body > div.wrapper div.sMenu div.icon > a > i.fa-grip-lines,
-          body > div.wrapper div.sMenu div.shop > a > i.fa-grip-lines {
+          body > div.wrapper > div.sMenu > div.grip > a > i.fa-grip-lines,
+          body > div.wrapper > div.sMenu > div.icon > a > i.fa-grip-lines,
+          body > div.wrapper > div.sMenu > div.shop > a > i.fa-grip-lines {
             font-size: 20px;
             line-height: 44px; }
-      body > div.wrapper div.sMenu div.icon img,
-      body > div.wrapper div.sMenu div.shop img {
+      body > div.wrapper > div.sMenu > div.icon > img,
+      body > div.wrapper > div.sMenu > div.shop > img {
         width: 15px;
         height: auto;
         filter: invert(30%);
         transition: 300ms; }
-        body > div.wrapper div.sMenu div.icon img:hover,
-        body > div.wrapper div.sMenu div.shop img:hover {
+        body > div.wrapper > div.sMenu > div.icon > img:hover,
+        body > div.wrapper > div.sMenu > div.shop > img:hover {
           filter: brightness(100%); }
-      body > div.wrapper div.sMenu > div.grip {
+      body > div.wrapper > div.sMenu > div.grip {
         position: relative; }
-        body > div.wrapper div.sMenu > div.grip > div.subMenu {
-          width: calc(100vw - 20px);
+        body > div.wrapper > div.sMenu > div.grip > div.subMenu {
+          width: calc(101vw - 20px);
           height: 500px;
           background-color: black;
           position: absolute;
@@ -2033,7 +2561,7 @@ body {
           top: 44px;
           z-index: 3;
           display: none; }
-          body > div.wrapper div.sMenu > div.grip > div.subMenu > div.search {
+          body > div.wrapper > div.sMenu > div.grip > div.subMenu > div.search {
             width: 90%;
             height: 40px;
             background-color: #333333;
@@ -2041,35 +2569,35 @@ body {
             margin: 20px auto;
             display: flex;
             justify-content: space-around; }
-            body > div.wrapper div.sMenu > div.grip > div.subMenu > div.search > i.fa-magnifying-glass {
+            body > div.wrapper > div.sMenu > div.grip > div.subMenu > div.search > i.fa-magnifying-glass {
               line-height: 40px;
               font-size: 15px;
               color: grey;
               margin-left: 10px; }
-            body > div.wrapper div.sMenu > div.grip > div.subMenu > div.search > div.input {
+            body > div.wrapper > div.sMenu > div.grip > div.subMenu > div.search > div.input {
               width: 90%;
               height: inherit;
               display: flex;
               justify-content: center;
               align-items: center; }
-              body > div.wrapper div.sMenu > div.grip > div.subMenu > div.search > div.input > input {
+              body > div.wrapper > div.sMenu > div.grip > div.subMenu > div.search > div.input > input {
                 width: 100%;
                 height: 30px;
                 border: unset;
                 background-color: #333333;
                 font-size: 16px;
                 outline: none; }
-          body > div.wrapper div.sMenu > div.grip > div.subMenu > nav {
+          body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav {
             width: 90%;
             height: 40px;
             margin: 0 auto; }
-            body > div.wrapper div.sMenu > div.grip > div.subMenu > nav > ul {
+            body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav > ul {
               width: 100%;
               height: inherit; }
-              body > div.wrapper div.sMenu > div.grip > div.subMenu > nav > ul > li {
+              body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav > ul > li {
                 width: 100%;
                 height: inherit; }
-                body > div.wrapper div.sMenu > div.grip > div.subMenu > nav > ul > li > a {
+                body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav > ul > li > a {
                   width: 100%;
                   height: inherit;
                   display: block;
@@ -2077,12 +2605,12 @@ body {
                   color: #bfbfbf;
                   border-bottom: 0.5px solid #bfbfbf;
                   font-size: 18px; }
-                  body > div.wrapper div.sMenu > div.grip > div.subMenu > nav > ul > li > a:hover {
+                  body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav > ul > li > a:hover {
                     color: white; }
-      body > div.wrapper div.sMenu > div.shop {
+      body > div.wrapper > div.sMenu > div.shop {
         position: relative; }
-        body > div.wrapper div.sMenu > div.shop > div.bolsa {
-          width: calc(100vw - 20px);
+        body > div.wrapper > div.sMenu > div.shop > div.bolsa {
+          width: calc(101vw - 20px);
           height: 300px;
           background-color: whitesmoke;
           position: absolute;
@@ -2090,7 +2618,7 @@ body {
           top: 44px;
           z-index: 4;
           display: none; }
-          body > div.wrapper div.sMenu > div.shop > div.bolsa > div.empty {
+          body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.empty {
             width: 90%;
             height: 50px;
             margin: 10px auto;
@@ -2098,29 +2626,29 @@ body {
             display: flex;
             justify-content: center;
             align-items: center; }
-            body > div.wrapper div.sMenu > div.shop > div.bolsa > div.empty > p {
+            body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.empty > p {
               color: grey; }
-          body > div.wrapper div.sMenu > div.shop > div.bolsa > div.azul {
+          body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul {
             width: 90%;
             height: 270px;
             margin: 0 auto;
             display: flex;
             flex-flow: column wrap;
             gap: 5px; }
-            body > div.wrapper div.sMenu > div.shop > div.bolsa > div.azul > div {
+            body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul > div {
               width: 100%;
               height: 40px;
               border-bottom: 0.5px solid #bfbfbf; }
-              body > div.wrapper div.sMenu > div.shop > div.bolsa > div.azul > div > a {
+              body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul > div > a {
                 width: inherit;
                 height: inherit;
                 display: flex;
                 gap: 10px;
                 align-items: center;
                 padding: 10px; }
-                body > div.wrapper div.sMenu > div.shop > div.bolsa > div.azul > div > a > img {
+                body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul > div > a > img {
                   width: 30px; }
-                body > div.wrapper div.sMenu > div.shop > div.bolsa > div.azul > div > a > p {
+                body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul > div > a > p {
                   color: #0066cc; }
     body > div.wrapper > div.products {
       width: 100%;
@@ -2537,7 +3065,7 @@ body {
           display: flex;
           justify-content: center;
           align-items: center; }
-        body > div.wrapper > div.pros3 > div:nth-of-type(2) > div:nth-of-type(1) h1 {
+        body > div.wrapper > div.pros3 > div:nth-of-type(2) > div:nth-of-type(1) > h1 {
           color: black; }
         body > div.wrapper > div.pros3 > div:nth-of-type(2) > div:nth-of-type(2) {
           display: flex;
@@ -2549,56 +3077,172 @@ body {
             body > div.wrapper > div.pros3 > div:nth-of-type(2) > div:nth-of-type(2) > a:hover {
               text-decoration: underline; }
             body > div.wrapper > div.pros3 > div:nth-of-type(2) > div:nth-of-type(2) > a > i.fa-chevron-right {
-              font-size: 12px; } }
+              font-size: 12px; }
+    body > div.wrapper > div.tv {
+      width: 100%;
+      height: 450px;
+      margin-bottom: 30px; }
+      body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > img {
+          width: 530px;
+          height: 450px;
+          object-fit: fill;
+          object-position: center; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(1) {
+          width: 115px;
+          height: 45px;
+          background-color: #fff;
+          z-index: 2;
+          position: absolute;
+          bottom: 30px;
+          left: -10px;
+          border-radius: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5px; }
+          body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(1) > i.fa-circle-play {
+            font-size: 20px; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(2) {
+          width: 230px;
+          height: 50px;
+          z-index: 2;
+          position: absolute;
+          bottom: 30px;
+          left: 120px;
+          display: flex;
+          justify-content: left;
+          align-items: center; }
+          body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(2) > h3 {
+            color: white; }
+    body > div.wrapper > footer.big {
+      display: none; }
+    body > div.wrapper > footer.small {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 20px; }
+      body > div.wrapper > footer.small > nav {
+        width: inherit;
+        height: inherit; }
+        body > div.wrapper > footer.small > nav > ul {
+          width: inherit;
+          height: inherit;
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          gap: 5px; }
+          body > div.wrapper > footer.small > nav > ul > li {
+            width: auto;
+            height: inherit;
+            border-bottom: 0.5px solid #bfbfbf;
+            cursor: pointer;
+            display: flex;
+            align-items: center; }
+            body > div.wrapper > footer.small > nav > ul > li > a {
+              color: #818080;
+              padding-left: 20px;
+              font-size: 14px;
+              transition: 200ms; }
+              body > div.wrapper > footer.small > nav > ul > li > a:hover {
+                text-decoration: underline;
+                color: black; }
+    body > div.wrapper > footer.big2 {
+      width: 95%;
+      height: 100px;
+      margin: 30px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 5px; }
+      body > div.wrapper > footer.big2 > div {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(1) {
+        border-bottom: 0.5px solid #bfbfbf; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(1) > p {
+          color: #818080;
+          font-size: 12px;
+          transition: 200ms; }
+          body > div.wrapper > footer.big2 > div:nth-of-type(1) > p > a {
+            color: #0066cc;
+            font-size: 12px; }
+            body > div.wrapper > footer.big2 > div:nth-of-type(1) > p > a:hover {
+              text-decoration: underline; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(2) {
+        justify-content: space-between; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(2) > p:nth-of-type(1) {
+          color: #818080;
+          font-size: 12px; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(2) > p:nth-of-type(2) {
+          color: black;
+          font-size: 12px; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(3) {
+        flex-wrap: wrap; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(3) > a {
+          color: black;
+          font-size: 12px;
+          transition: 300ms; }
+          body > div.wrapper > footer.big2 > div:nth-of-type(3) > a:hover {
+            text-decoration: underline; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(3) > span {
+          color: #818080;
+          margin: 0 10px; } }
 
 @media screen and (max-width: 575px) {
   body > div.wrapper {
     width: 100%; }
-    body > div.wrapper div.menu {
+    body > div.wrapper > div.menu {
       display: none; }
-    body > div.wrapper div.sMenu {
+    body > div.wrapper > div.sMenu {
       width: calc(100vw - 20px);
       height: 44px;
       background-color: #333333;
       display: flex;
       justify-content: space-between; }
-      body > div.wrapper div.sMenu > div.grip,
-      body > div.wrapper div.sMenu div.icon,
-      body > div.wrapper div.sMenu div.shop {
+      body > div.wrapper > div.sMenu > div.grip,
+      body > div.wrapper > div.sMenu > div.icon,
+      body > div.wrapper > div.sMenu > div.shop {
         width: 10%;
         height: inherit;
         display: flex;
         justify-content: center; }
-        body > div.wrapper div.sMenu > div.grip > a,
-        body > div.wrapper div.sMenu div.icon > a,
-        body > div.wrapper div.sMenu div.shop > a {
+        body > div.wrapper > div.sMenu > div.grip > a,
+        body > div.wrapper > div.sMenu > div.icon > a,
+        body > div.wrapper > div.sMenu > div.shop > a {
           width: inherit;
           height: auto;
           line-height: 44px;
           color: #bfbfbf;
           display: block;
           transition: 300ms; }
-          body > div.wrapper div.sMenu > div.grip > a:hover,
-          body > div.wrapper div.sMenu div.icon > a:hover,
-          body > div.wrapper div.sMenu div.shop > a:hover {
+          body > div.wrapper > div.sMenu > div.grip > a:hover,
+          body > div.wrapper > div.sMenu > div.icon > a:hover,
+          body > div.wrapper > div.sMenu > div.shop > a:hover {
             color: white; }
-          body > div.wrapper div.sMenu > div.grip > a > i.fa-grip-lines,
-          body > div.wrapper div.sMenu div.icon > a > i.fa-grip-lines,
-          body > div.wrapper div.sMenu div.shop > a > i.fa-grip-lines {
+          body > div.wrapper > div.sMenu > div.grip > a > i.fa-grip-lines,
+          body > div.wrapper > div.sMenu > div.icon > a > i.fa-grip-lines,
+          body > div.wrapper > div.sMenu > div.shop > a > i.fa-grip-lines {
             font-size: 20px;
             line-height: 44px; }
-      body > div.wrapper div.sMenu div.icon img,
-      body > div.wrapper div.sMenu div.shop img {
+      body > div.wrapper > div.sMenu > div.icon > img,
+      body > div.wrapper > div.sMenu > div.shop > img {
         width: 15px;
         height: auto;
         filter: invert(30%);
         transition: 300ms; }
-        body > div.wrapper div.sMenu div.icon img:hover,
-        body > div.wrapper div.sMenu div.shop img:hover {
+        body > div.wrapper > div.sMenu > div.icon > img:hover,
+        body > div.wrapper > div.sMenu > div.shop > img:hover {
           filter: brightness(100%); }
-      body > div.wrapper div.sMenu > div.grip {
+      body > div.wrapper > div.sMenu > div.grip {
         position: relative; }
-        body > div.wrapper div.sMenu > div.grip > div.subMenu {
+        body > div.wrapper > div.sMenu > div.grip > div.subMenu {
           width: calc(100vw - 20px);
           height: 500px;
           background-color: black;
@@ -2607,7 +3251,7 @@ body {
           top: 44px;
           z-index: 3;
           display: none; }
-          body > div.wrapper div.sMenu > div.grip > div.subMenu > div.search {
+          body > div.wrapper > div.sMenu > div.grip > div.subMenu > div.search {
             width: 90%;
             height: 40px;
             background-color: #333333;
@@ -2615,35 +3259,35 @@ body {
             margin: 20px auto;
             display: flex;
             justify-content: space-around; }
-            body > div.wrapper div.sMenu > div.grip > div.subMenu > div.search > i.fa-magnifying-glass {
+            body > div.wrapper > div.sMenu > div.grip > div.subMenu > div.search > i.fa-magnifying-glass {
               line-height: 40px;
               font-size: 15px;
               color: grey;
               margin-left: 10px; }
-            body > div.wrapper div.sMenu > div.grip > div.subMenu > div.search > div.input {
+            body > div.wrapper > div.sMenu > div.grip > div.subMenu > div.search > div.input {
               width: 90%;
               height: inherit;
               display: flex;
               justify-content: center;
               align-items: center; }
-              body > div.wrapper div.sMenu > div.grip > div.subMenu > div.search > div.input > input {
+              body > div.wrapper > div.sMenu > div.grip > div.subMenu > div.search > div.input > input {
                 width: 100%;
                 height: 30px;
                 border: unset;
                 background-color: #333333;
                 font-size: 16px;
                 outline: none; }
-          body > div.wrapper div.sMenu > div.grip > div.subMenu > nav {
+          body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav {
             width: 90%;
             height: 40px;
             margin: 0 auto; }
-            body > div.wrapper div.sMenu > div.grip > div.subMenu > nav > ul {
+            body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav > ul {
               width: 100%;
               height: inherit; }
-              body > div.wrapper div.sMenu > div.grip > div.subMenu > nav > ul > li {
+              body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav > ul > li {
                 width: 100%;
                 height: inherit; }
-                body > div.wrapper div.sMenu > div.grip > div.subMenu > nav > ul > li > a {
+                body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav > ul > li > a {
                   width: 100%;
                   height: inherit;
                   display: block;
@@ -2651,11 +3295,11 @@ body {
                   color: #bfbfbf;
                   border-bottom: 0.5px solid #bfbfbf;
                   font-size: 18px; }
-                  body > div.wrapper div.sMenu > div.grip > div.subMenu > nav > ul > li > a:hover {
+                  body > div.wrapper > div.sMenu > div.grip > div.subMenu > nav > ul > li > a:hover {
                     color: white; }
-      body > div.wrapper div.sMenu > div.shop {
+      body > div.wrapper > div.sMenu > div.shop {
         position: relative; }
-        body > div.wrapper div.sMenu > div.shop > div.bolsa {
+        body > div.wrapper > div.sMenu > div.shop > div.bolsa {
           width: calc(100vw - 20px);
           height: 300px;
           background-color: whitesmoke;
@@ -2664,7 +3308,7 @@ body {
           top: 44px;
           z-index: 4;
           display: none; }
-          body > div.wrapper div.sMenu > div.shop > div.bolsa > div.empty {
+          body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.empty {
             width: 90%;
             height: 50px;
             margin: 10px auto;
@@ -2672,29 +3316,29 @@ body {
             display: flex;
             justify-content: center;
             align-items: center; }
-            body > div.wrapper div.sMenu > div.shop > div.bolsa > div.empty > p {
+            body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.empty > p {
               color: grey; }
-          body > div.wrapper div.sMenu > div.shop > div.bolsa > div.azul {
+          body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul {
             width: 90%;
             height: 270px;
             margin: 0 auto;
             display: flex;
             flex-flow: column wrap;
             gap: 5px; }
-            body > div.wrapper div.sMenu > div.shop > div.bolsa > div.azul > div {
+            body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul > div {
               width: 100%;
               height: 40px;
               border-bottom: 0.5px solid #bfbfbf; }
-              body > div.wrapper div.sMenu > div.shop > div.bolsa > div.azul > div > a {
+              body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul > div > a {
                 width: inherit;
                 height: inherit;
                 display: flex;
                 gap: 10px;
                 align-items: center;
                 padding: 10px; }
-                body > div.wrapper div.sMenu > div.shop > div.bolsa > div.azul > div > a > img {
+                body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul > div > a > img {
                   width: 30px; }
-                body > div.wrapper div.sMenu > div.shop > div.bolsa > div.azul > div > a > p {
+                body > div.wrapper > div.sMenu > div.shop > div.bolsa > div.azul > div > a > p {
                   color: #0066cc; }
     body > div.wrapper > div.products {
       width: 100%;
@@ -3126,4 +3770,123 @@ body {
             body > div.wrapper > div.pros3 > div:nth-of-type(2) > div:nth-of-type(2) > a:hover {
               text-decoration: underline; }
             body > div.wrapper > div.pros3 > div:nth-of-type(2) > div:nth-of-type(2) > a > i.fa-chevron-right {
-              font-size: 12px; } }
+              font-size: 12px; }
+    body > div.wrapper > div.tv {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 30px; }
+      body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > img {
+          width: 400px;
+          height: 400px;
+          object-fit: fill;
+          object-position: center; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(1) {
+          width: 90px;
+          height: 35px;
+          background-color: #fff;
+          z-index: 2;
+          position: absolute;
+          bottom: 30px;
+          left: -50px;
+          border-radius: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5px; }
+          body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(1) > h3 {
+            font-size: 14px; }
+          body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(1) > i.fa-circle-play {
+            font-size: 20px; }
+        body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(2) {
+          width: 230px;
+          height: 50px;
+          z-index: 2;
+          position: absolute;
+          bottom: 30px;
+          left: 40px;
+          display: flex;
+          justify-content: left;
+          align-items: center; }
+          body > div.wrapper > div.tv > div.ShilaTv > div.swiper-wrapper > div.swiper-slide > div:nth-of-type(2) > h3 {
+            color: white;
+            font-size: 14px; }
+    body > div.wrapper > footer.big {
+      display: none; }
+    body > div.wrapper > footer.small {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 20px; }
+      body > div.wrapper > footer.small > nav {
+        width: inherit;
+        height: inherit; }
+        body > div.wrapper > footer.small > nav > ul {
+          width: inherit;
+          height: inherit;
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          gap: 5px; }
+          body > div.wrapper > footer.small > nav > ul > li {
+            width: auto;
+            height: inherit;
+            border-bottom: 0.5px solid #bfbfbf;
+            cursor: pointer;
+            display: flex;
+            align-items: center; }
+            body > div.wrapper > footer.small > nav > ul > li > a {
+              color: #818080;
+              padding-left: 20px;
+              font-size: 14px;
+              transition: 200ms; }
+              body > div.wrapper > footer.small > nav > ul > li > a:hover {
+                text-decoration: underline;
+                color: black; }
+    body > div.wrapper > footer.big2 {
+      width: 95%;
+      height: 100px;
+      margin: 30px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 5px; }
+      body > div.wrapper > footer.big2 > div {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(1) {
+        border-bottom: 0.5px solid #bfbfbf; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(1) > p {
+          color: #818080;
+          font-size: 12px; }
+          body > div.wrapper > footer.big2 > div:nth-of-type(1) > p > a {
+            color: #0066cc;
+            font-size: 12px;
+            transition: 200ms; }
+            body > div.wrapper > footer.big2 > div:nth-of-type(1) > p > a:hover {
+              text-decoration: underline; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(2) {
+        justify-content: space-between; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(2) > p:nth-of-type(1) {
+          color: #818080;
+          font-size: 12px; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(2) > p:nth-of-type(2) {
+          color: black;
+          font-size: 12px; }
+      body > div.wrapper > footer.big2 > div:nth-of-type(3) {
+        flex-wrap: wrap; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(3) > a {
+          color: black;
+          font-size: 12px;
+          transition: 200ms; }
+          body > div.wrapper > footer.big2 > div:nth-of-type(3) > a:hover {
+            text-decoration: underline; }
+        body > div.wrapper > footer.big2 > div:nth-of-type(3) > span {
+          color: #818080;
+          margin: 0 10px; } }

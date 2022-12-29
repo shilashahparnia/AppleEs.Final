@@ -623,24 +623,24 @@ $sm: 576px;
           }
           //end row products3
           //make apple Tv swiper
-          >div.tv{
+          > div.tv {
             width: 100%;
             height: 628px;
-            margin-bottom: 30px;
-            >div.ShilaTv{
-              >div.swiper-wrapper{
-                >div.swiper-slide{
+            margin-bottom: 20px;
+            > div.ShilaTv {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
                   position: relative;
                   display: flex;
                   justify-content: center;
                   align-items: center;
                   cursor: pointer;
-                  >img{
+                  > img {
                     width: inherit;
                     object-fit: cover;
                     object-position: center;
                   }
-                  >div:nth-of-type(1){
+                  > div:nth-of-type(1) {
                     width: 150px;
                     height: 45px;
                     background-color: #fff;
@@ -653,11 +653,11 @@ $sm: 576px;
                     justify-content: center;
                     align-items: center;
                     gap: 5px;
-                    >i.fa-circle-play{
+                    > i.fa-circle-play {
                       font-size: 20px;
                     }
                   }
-                  >div:nth-of-type(2){
+                  > div:nth-of-type(2) {
                     width: 550px;
                     height: 50px;
                     z-index: 2;
@@ -667,7 +667,7 @@ $sm: 576px;
                     display: flex;
                     justify-content: left;
                     align-items: center;
-                    >h3{
+                    > h3 {
                       color: white;
                     }
                   }
@@ -676,6 +676,108 @@ $sm: 576px;
             }
           }
           //end apple Tv swiper
+          //make xxl xl lg fisrt footer
+          >footer.big{
+            width: 100%;
+            height: 520px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+            >div{
+              width: 190px;
+              height: 500px;
+              >nav{
+                width: inherit;
+                height: inherit;
+                >ul{
+                  width: inherit;
+                  height: inherit;
+                  list-style: none;
+                  display: flex;
+                  gap: 5px;
+                  flex-direction: column;
+                  >li{
+                    width: auto;
+                    height: 28px;
+                    display: flex;
+                    align-items: center;
+                    >a{
+                      color: $Footer;
+                      font-size: 14px;
+                      transition: 200ms;
+                      &:hover{
+                        text-decoration: underline;
+                        color: black;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end xxl xl lg fisrt footer
+          //ignore md sm xs first footer
+          >footer.small{
+            display: none;
+          }
+          //make second footer
+          >footer.big2{
+            width: 68%;
+            height: 100px;
+            margin: 30px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            >div{
+              width: 100%;
+              height: inherit;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+            }
+            >div:nth-of-type(1){
+              border-bottom: 0.5px solid $MenuColor;
+              >p{
+                color: $Footer;
+                font-size: 14px;
+                >a{
+                  color: $Azul;
+                  font-size: 14px;
+                  transition: 300ms;
+                  &:hover{
+                  text-decoration: underline;
+                }
+                }
+              }
+            }
+            >div:nth-of-type(2){
+              justify-content: space-between;
+              >p:nth-of-type(1){
+                color: $Footer;
+                font-size: 13px;
+              }
+              >p:nth-of-type(2){
+                color: black;
+                font-size: 13px;
+              }
+            }
+            >div:nth-of-type(3){
+              >a{
+                color: black;
+                font-size: 14px;
+                transition: 300ms;
+                &:hover{
+                  text-decoration: underline;
+                }
+              }
+              >span{
+                color: $Footer;
+                margin: 0 10px;
+              }
+            }
+          }
+          //end second footer
         }
       }
     }
@@ -1299,6 +1401,163 @@ $sm: 576px;
             }
           }
           //end row products3
+          //make apple Tv swiper
+          > div.tv {
+            width: 100%;
+            height: 628px;
+            margin-bottom: 30px;
+            > div.ShilaTv {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  position: relative;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  cursor: pointer;
+                  > img {
+                    width: inherit;
+                    object-fit: fill;
+                    object-position: center;
+                  }
+                  > div:nth-of-type(1) {
+                    width: 120px;
+                    height: 45px;
+                    background-color: #fff;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 50px;
+                    left: 20px;
+                    border-radius: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    > i.fa-circle-play {
+                      font-size: 20px;
+                    }
+                  }
+                  > div:nth-of-type(2) {
+                    width: 550px;
+                    height: 50px;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 50px;
+                    left: 150px;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    > h3 {
+                      color: white;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end apple Tv swiper
+          //make xxl xl lg md footer
+          >footer.big{
+            width: 100%;
+            height: 520px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+            >div{
+              width: 190px;
+              height: 500px;
+              >nav{
+                width: inherit;
+                height: inherit;
+                >ul{
+                  width: inherit;
+                  height: inherit;
+                  list-style: none;
+                  display: flex;
+                  gap: 5px;
+                  flex-direction: column;
+                  >li{
+                    width: auto;
+                    height: 28px;
+                    display: flex;
+                    align-items: center;
+                    >a{
+                      color: $Footer;
+                      font-size: 14px;
+                      transition: 200ms;
+                      &:hover{
+                        text-decoration: underline;
+                        color: black;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end xxl xl lg md footer
+          //ignore md sm xs footer
+          >footer.small{
+            display: none;
+          }
+          //make second footer
+          >footer.big2{
+            width: 68%;
+            height: 100px;
+            margin: 30px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            >div{
+              width: 100%;
+              height: inherit;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+            }
+            >div:nth-of-type(1){
+              border-bottom: 0.5px solid $MenuColor;
+              >p{
+                color: $Footer;
+                font-size: 14px;
+                >a{
+                  color: $Azul;
+                  font-size: 14px;
+                  transition: 300ms;
+                  &:hover{
+                    text-decoration: underline;
+                  }
+                }
+              }
+            }
+            >div:nth-of-type(2){
+              justify-content: space-between;
+              >p:nth-of-type(1){
+                color: $Footer;
+                font-size: 13px;
+              }
+              >p:nth-of-type(2){
+                color: black;
+                font-size: 13px;
+              }
+            }
+            >div:nth-of-type(3){
+              >a{
+                color: black;
+                font-size: 14px;
+                transition: 300ms;
+                &:hover{
+                  text-decoration: underline;
+                }
+              }
+              >span{
+                color: $Footer;
+                margin: 0 10px;
+              }
+            }
+          }
+          //end second footer
         }
       }
     }
@@ -1922,6 +2181,163 @@ $sm: 576px;
             }
           }
           //end row products3
+          //make apple Tv swiper
+          > div.tv {
+            width: 100%;
+            height: 628px;
+            margin-bottom: 30px;
+            > div.ShilaTv {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  position: relative;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  cursor: pointer;
+                  > img {
+                    width: 900px;
+                    object-fit: fill;
+                    object-position: center;
+                  }
+                  > div:nth-of-type(1) {
+                    width: 140px;
+                    height: 45px;
+                    background-color: #fff;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 50px;
+                    left: -40px;
+                    border-radius: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    > i.fa-circle-play {
+                      font-size: 20px;
+                    }
+                  }
+                  > div:nth-of-type(2) {
+                    width: 550px;
+                    height: 50px;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 50px;
+                    left: 110px;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    > h3 {
+                      color: white;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end apple Tv swiper
+          //make xxl xl lg md footer
+          >footer.big{
+            width: 100%;
+            height: 520px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+            >div{
+              width: 170px;
+              height: 500px;
+              >nav{
+                width: inherit;
+                height: inherit;
+                >ul{
+                  width: inherit;
+                  height: inherit;
+                  list-style: none;
+                  display: flex;
+                  gap: 5px;
+                  flex-direction: column;
+                  >li{
+                    width: auto;
+                    height: 28px;
+                    display: flex;
+                    align-items: center;
+                    >a{
+                      color: $Footer;
+                      font-size: 14px;
+                      transition: 200ms;
+                      &:hover{
+                        text-decoration: underline;
+                        color: black;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end xxl xl lg md footer
+          //ignore md sm xs footer
+          >footer.small{
+            display: none;
+          }
+          //make second footer
+          >footer.big2{
+            width: 80%;
+            height: 100px;
+            margin: 30px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            >div{
+              width: 100%;
+              height: inherit;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+            }
+            >div:nth-of-type(1){
+              border-bottom: 0.5px solid $MenuColor;
+              >p{
+                color: $Footer;
+                font-size: 14px;
+                >a{
+                  color: $Azul;
+                  font-size: 14px;
+                  transition: 300ms;
+                  &:hover{
+                    text-decoration: underline;
+                  }
+                }
+              }
+            }
+            >div:nth-of-type(2){
+              justify-content: space-between;
+              >p:nth-of-type(1){
+                color: $Footer;
+                font-size: 13px;
+              }
+              >p:nth-of-type(2){
+                color: black;
+                font-size: 13px;
+              }
+            }
+            >div:nth-of-type(3){
+              >a{
+                color: black;
+                font-size: 14px;
+                transition: 300ms;
+                &:hover{
+                  text-decoration: underline;
+                }
+              }
+              >span{
+                color: $Footer;
+                margin: 0 10px;
+              }
+            }
+          }
+          //end second footer
         }
       }
     }
@@ -1930,56 +2346,174 @@ $sm: 576px;
       body {
         > div.wrapper {
           width: 100%;
-          //make menu
+          //ignore menu
           > div.menu {
+            display: none;
+          }
+          // make md, sm, xs menu
+          > div.sMenu {
             width: 100%;
             height: 44px;
             background-color: #333333;
-            > nav {
-              width: inherit;
+            display: flex;
+            justify-content: space-between;
+            > div.grip,
+            > div.icon,
+            > div.shop {
+              width: 10%;
               height: inherit;
-              > ul {
+              display: flex;
+              justify-content: center;
+              > a {
                 width: inherit;
-                height: inherit;
-                list-style: none;
-                display: flex;
-                justify-content: center;
-                gap: 0 18px;
-                > li {
-                  width: auto;
-                  height: inherit;
-                  > a {
-                    width: auto;
+                height: auto;
+                line-height: 44px;
+                color: $MenuColor;
+                display: block;
+                transition: 300ms;
+                &:hover {
+                  color: white;
+                }
+                > i.fa-grip-lines {
+                  font-size: 20px;
+                  line-height: 44px;
+                }
+              }
+            }
+            > div.icon,
+            > div.shop {
+              > img {
+                width: 15px;
+                height: auto;
+                filter: invert(30%);
+                transition: 300ms;
+                &:hover {
+                  filter: brightness(100%);
+                }
+              }
+            }
+            > div.grip {
+              position: relative;
+              > div.subMenu {
+                width: calc(101vw - 20px);
+                height: 500px;
+                background-color: black;
+                position: absolute;
+                left: 0;
+                top: 44px;
+                z-index: 3;
+                display: none;
+                > div.search {
+                  width: 90%;
+                  height: 40px;
+                  background-color: #333333;
+                  border-radius: 10px;
+                  margin: 20px auto;
+                  display: flex;
+                  justify-content: space-around;
+                  > i.fa-magnifying-glass {
+                    line-height: 40px;
+                    font-size: 15px;
+                    color: grey;
+                    margin-left: 10px;
+                  }
+                  > div.input {
+                    width: 90%;
                     height: inherit;
-                    line-height: 44px;
-                    text-decoration: none;
-                    color: $MenuColor;
-                    display: block;
-                    font-size: 14px;
-                    transition: 300ms;
-                    &:hover {
-                      color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    > input {
+                      width: 100%;
+                      height: 30px;
+                      border: unset;
+                      background-color: #333333;
+                      font-size: 16px;
+                      outline: none;
                     }
-                    > img {
-                      filter: invert(30%);
-                      transition: 300ms;
-                      &:hover {
-                        filter: brightness(100%);
+                  }
+                }
+                > nav {
+                  width: 90%;
+                  height: 40px;
+                  margin: 0 auto;
+                  > ul {
+                    width: 100%;
+                    height: inherit;
+                    > li {
+                      width: 100%;
+                      height: inherit;
+                      > a {
+                        width: 100%;
+                        height: inherit;
+                        display: block;
+                        line-height: 40px;
+                        color: $MenuColor;
+                        border-bottom: 0.5px solid $MenuColor;
+                        font-size: 18px;
+                        &:hover {
+                          color: white;
+                        }
                       }
                     }
-                    > i {
-                      font-size: 15px;
+                  }
+                }
+              }
+            }
+            > div.shop {
+              position: relative;
+              > div.bolsa {
+                width: calc(101vw - 20px);
+                height: 300px;
+                background-color: whitesmoke;
+                position: absolute;
+                right: 0;
+                top: 44px;
+                z-index: 4;
+                display: none;
+                > div.empty {
+                  width: 90%;
+                  height: 50px;
+                  margin: 10px auto;
+                  border-bottom: 0.5px solid $MenuColor;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  > p {
+                    color: grey;
+                  }
+                }
+                > div.azul {
+                  width: 90%;
+                  height: 270px;
+                  margin: 0 auto;
+                  display: flex;
+                  flex-flow: column wrap;
+                  gap: 5px;
+                  > div {
+                    width: 100%;
+                    height: 40px;
+                    border-bottom: 0.5px solid $MenuColor;
+                    > a {
+                      width: inherit;
+                      height: inherit;
+                      display: flex;
+                      gap: 10px;
+                      align-items: center;
+                      padding: 10px;
+                      > img {
+                        width: 30px;
+                      }
+                      > p {
+                        color: #0066cc;
+                      }
                     }
                   }
                 }
               }
             }
           }
-          //end menu
-          //ignore sMenu
-          div.sMenu {
-            display: none;
-          }
+          // end md, sm, xs menu
           //make small products swiper
           > div.products {
             width: 100%;
@@ -2549,6 +3083,159 @@ $sm: 576px;
             }
           }
           //end row products3
+          //make apple Tv swiper
+          > div.tv {
+            width: 100%;
+            height: 500px;
+            margin-bottom: 30px;
+            > div.ShilaTv {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  position: relative;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  cursor: pointer;
+                  > img {
+                    width: 700px;
+                    height: 500px;
+                    object-fit: fill;
+                    object-position: center;
+                  }
+                  > div:nth-of-type(1) {
+                    width: 115px;
+                    height: 45px;
+                    background-color: #fff;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 50px;
+                    left: -10px;
+                    border-radius: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    > i.fa-circle-play {
+                      font-size: 20px;
+                    }
+                  }
+                  > div:nth-of-type(2) {
+                    width: 300px;
+                    height: 50px;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 50px;
+                    left: 120px;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    > h3 {
+                      color: white;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end apple Tv swiper
+          //ignore xxl xl lg footer
+          >footer.big{
+            display: none;
+          }
+          //make md, sm, xs footer
+          >footer.small{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+            >nav{
+              width: inherit;
+              height: inherit;
+              >ul{
+                width: inherit;
+                height: inherit;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                >li{
+                  width: auto;
+                  height: inherit;
+                  border-bottom: 0.5px solid $MenuColor;
+                  cursor: pointer;
+                  display: flex;
+                  align-items: center;
+                  >a{
+                    color: $Footer;
+                    padding-left: 20px;
+                    font-size: 14px;
+                    transition: 200ms;
+                    &:hover{
+                      text-decoration: underline;
+                      color: black;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end md, sm, xs footer
+          //make second footer
+          >footer.big2{
+            width: 95%;
+            height: 100px;
+            margin: 30px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            >div{
+              width: 100%;
+              height: inherit;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+            }
+            >div:nth-of-type(1){
+              border-bottom: 0.5px solid $MenuColor;
+              >p{
+                color: $Footer;
+                font-size: 14px;
+                >a{
+                  color: $Azul;
+                  font-size: 14px;
+                  transition: 300ms;
+                  &:hover{
+                    text-decoration: underline;
+                  }
+                }
+              }
+            }
+            >div:nth-of-type(2){
+              justify-content: space-between;
+              >p:nth-of-type(1){
+                color: $Footer;
+                font-size: 13px;
+              }
+              >p:nth-of-type(2){
+                color: black;
+                font-size: 13px;
+              }
+            }
+            >div:nth-of-type(3){
+              >a{
+                color: black;
+                font-size: 14px;
+                transition: 300ms;
+                &:hover{
+                  text-decoration: underline;
+                }
+              }
+              >span{
+                color: $Footer;
+                margin: 0 8px;
+              }
+            }
+          }
+          //end second footer
         }
       }
     }
@@ -2558,19 +3245,19 @@ $sm: 576px;
         > div.wrapper {
           width: 100%;
           //ignore menu
-          div.menu {
+          > div.menu {
             display: none;
           }
-          // make sm, xs menu
-          div.sMenu {
-            width: calc(100vw - 20px);
+          // make md, sm, xs menu
+          > div.sMenu {
+            width: 100%;
             height: 44px;
             background-color: #333333;
             display: flex;
             justify-content: space-between;
             > div.grip,
-            div.icon,
-            div.shop {
+            > div.icon,
+            > div.shop {
               width: 10%;
               height: inherit;
               display: flex;
@@ -2591,9 +3278,9 @@ $sm: 576px;
                 }
               }
             }
-            div.icon,
-            div.shop {
-              img {
+            > div.icon,
+            > div.shop {
+              > img {
                 width: 15px;
                 height: auto;
                 filter: invert(30%);
@@ -2606,7 +3293,7 @@ $sm: 576px;
             > div.grip {
               position: relative;
               > div.subMenu {
-                width: calc(100vw - 20px);
+                width: calc(101vw - 20px);
                 height: 500px;
                 background-color: black;
                 position: absolute;
@@ -2674,7 +3361,7 @@ $sm: 576px;
             > div.shop {
               position: relative;
               > div.bolsa {
-                width: calc(100vw - 20px);
+                width: calc(101vw - 20px);
                 height: 300px;
                 background-color: whitesmoke;
                 position: absolute;
@@ -2724,7 +3411,7 @@ $sm: 576px;
               }
             }
           }
-          // end sm, xs menu
+          // end md, sm, xs menu
           //make small products swiper
           > div.products {
             width: 100%;
@@ -3268,7 +3955,7 @@ $sm: 576px;
                 align-items: center;
               }
               > div:nth-of-type(1) {
-                h1 {
+                > h1 {
                   color: black;
                 }
               }
@@ -3290,6 +3977,160 @@ $sm: 576px;
             }
           }
           //end row products3
+          //make apple Tv swiper
+          > div.tv {
+            width: 100%;
+            height: 450px;
+            margin-bottom: 30px;
+            > div.ShilaTv {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  position: relative;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  cursor: pointer;
+                  > img {
+                    width: 530px;
+                    height: 450px;
+                    object-fit: fill;
+                    object-position: center;
+                  }
+                  > div:nth-of-type(1) {
+                    width: 115px;
+                    height: 45px;
+                    background-color: #fff;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 30px;
+                    left: -10px;
+                    border-radius: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    > i.fa-circle-play {
+                      font-size: 20px;
+                    }
+                  }
+                  > div:nth-of-type(2) {
+                    width: 230px;
+                    height: 50px;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 30px;
+                    left: 120px;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    > h3 {
+                      color: white;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end apple Tv swiper
+          //ignore xxl xl lg  footer
+          >footer.big{
+            display: none;
+          }
+          //make md, sm, xs footer
+          >footer.small{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+            >nav{
+              width: inherit;
+              height: inherit;
+              >ul{
+                width: inherit;
+                height: inherit;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                >li{
+                  width: auto;
+                  height: inherit;
+                  border-bottom: 0.5px solid $MenuColor;
+                  cursor: pointer;
+                  display: flex;
+                  align-items: center;
+                  >a{
+                    color: $Footer;
+                    padding-left: 20px;
+                    font-size: 14px;
+                    transition: 200ms;
+                    &:hover{
+                      text-decoration: underline;
+                      color: black;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end md, sm, xs footer
+          //make second footer
+          >footer.big2{
+                width: 95%;
+                height: 100px;
+                margin: 30px auto;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                >div{
+                  width: 100%;
+                  height: inherit;
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: center;
+                }
+                >div:nth-of-type(1){
+                  border-bottom: 0.5px solid $MenuColor;
+                  >p{
+                    color: $Footer;
+                    font-size: 12px;
+                    transition: 200ms;
+                    >a{
+                      color: $Azul;
+                      font-size: 12px;
+                      &:hover{
+                        text-decoration: underline;
+                      }
+                    }
+                  }
+                }
+                >div:nth-of-type(2){
+                  justify-content: space-between;
+                  >p:nth-of-type(1){
+                    color: $Footer;
+                    font-size: 12px;
+                  }
+                  >p:nth-of-type(2){
+                    color: black;
+                    font-size: 12px;
+                  }
+                }
+                >div:nth-of-type(3){
+                  flex-wrap: wrap;
+                  >a{
+                    color: black;
+                    font-size: 12px;
+                    transition: 300ms;
+                    &:hover{
+                      text-decoration: underline;
+                    }
+                  }
+                  >span{
+                    color: $Footer;
+                    margin: 0 10px;
+                  }
+                }
+          }
+          //end second footer
         }
       }
     }
@@ -3299,19 +4140,19 @@ $sm: 576px;
         > div.wrapper {
           width: 100%;
           //ignore menu
-          div.menu {
+          > div.menu {
             display: none;
           }
-          // make sm, xs menu
-          div.sMenu {
+          // make md, sm, xs menu
+          > div.sMenu {
             width: calc(100vw - 20px);
             height: 44px;
             background-color: #333333;
             display: flex;
             justify-content: space-between;
             > div.grip,
-            div.icon,
-            div.shop {
+            > div.icon,
+            > div.shop {
               width: 10%;
               height: inherit;
               display: flex;
@@ -3332,9 +4173,9 @@ $sm: 576px;
                 }
               }
             }
-            div.icon,
-            div.shop {
-              img {
+            > div.icon,
+            > div.shop {
+              > img {
                 width: 15px;
                 height: auto;
                 filter: invert(30%);
@@ -3465,7 +4306,7 @@ $sm: 576px;
               }
             }
           }
-          // end sm, xs menu
+          // end md,sm, xs menu
           //make small products swiper
           > div.products {
             width: 100%;
@@ -4034,6 +4875,164 @@ $sm: 576px;
             }
           }
           //end row products3
+          //make apple Tv swiper
+          > div.tv {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 30px;
+            > div.ShilaTv {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  position: relative;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  cursor: pointer;
+                  > img {
+                    width: 400px;
+                    height: 400px;
+                    object-fit: fill;
+                    object-position: center;
+                  }
+                  > div:nth-of-type(1) {
+                    width: 90px;
+                    height: 35px;
+                    background-color: #fff;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 30px;
+                    left: -50px;
+                    border-radius: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    > h3 {
+                      font-size: 14px;
+                    }
+                    > i.fa-circle-play {
+                      font-size: 20px;
+                    }
+                  }
+                  > div:nth-of-type(2) {
+                    width: 230px;
+                    height: 50px;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 30px;
+                    left: 40px;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    > h3 {
+                      color: white;
+                      font-size: 14px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end apple Tv swiper
+          //ignore xxl xl lg  footer
+          >footer.big{
+            display: none;
+          }
+          //make md, sm, xs footer
+          >footer.small{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+            >nav{
+              width: inherit;
+              height: inherit;
+              >ul{
+                width: inherit;
+                height: inherit;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                >li{
+                  width: auto;
+                  height: inherit;
+                  border-bottom: 0.5px solid $MenuColor;
+                  cursor: pointer;
+                  display: flex;
+                  align-items: center;
+                  >a{
+                    color: $Footer;
+                    padding-left: 20px;
+                    font-size: 14px;
+                    transition: 200ms;
+                    &:hover{
+                      text-decoration: underline;
+                      color: black;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end md, sm, xs footer
+          //make second footer
+          >footer.big2{
+            width: 95%;
+            height: 100px;
+            margin: 30px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            >div{
+              width: 100%;
+              height: inherit;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+            }
+            >div:nth-of-type(1){
+              border-bottom: 0.5px solid $MenuColor;
+              >p{
+                color: $Footer;
+                font-size: 12px;
+                >a{
+                  color: $Azul;
+                  font-size: 12px;
+                  transition: 200ms;
+                  &:hover{
+                    text-decoration: underline;
+                  }
+                }
+              }
+            }
+            >div:nth-of-type(2){
+              justify-content: space-between;
+              >p:nth-of-type(1){
+                color: $Footer;
+                font-size: 12px;
+              }
+              >p:nth-of-type(2){
+                color: black;
+                font-size: 12px;
+              }
+            }
+            >div:nth-of-type(3){
+              flex-wrap: wrap;
+              >a{
+                color: black;
+                font-size: 12px;
+                transition: 200ms;
+                &:hover{
+                  text-decoration: underline;
+                }
+              }
+              >span{
+                color: $Footer;
+                margin: 0 10px;
+              }
+            }
+          }
+          //end second footer
         }
       }
     }
