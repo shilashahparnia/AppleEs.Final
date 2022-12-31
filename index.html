@@ -62,9 +62,46 @@
               <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
             </li>
             <li>
+             <div class="buy">
               <a href="#"
                 ><img src="./images/bagIcon.svg" alt="Shopping Bag"
               /></a>
+              <div class="compra">
+                <div class="empty"><p>Tu bolsa está vacía</p></div>
+                <div class="azul">
+                  <div>
+                    <a href="#">
+                      <img src="./images/bag.svg" alt="" />
+                      <p>Bolsa</p></a
+                    >
+                  </div>
+                  <div>
+                    <a href="#">
+                      <img src="./images/savedbyyou.svg" alt="" />
+                      <p>Artículos guardados</p></a
+                    >
+                  </div>
+                  <div>
+                    <a href="#"
+                      ><img src="./images/orders.svg" alt="" />
+                      <p>Pedidos</p></a
+                    >
+                  </div>
+                  <div>
+                    <a href="#">
+                      <img src="./images/account.svg" alt="" />
+                      <p>Cuenta</p></a
+                    >
+                  </div>
+                  <div>
+                    <a href="#"
+                      ><img src="./images/signIn.svg" alt="" />
+                      <p>Iniciar sesión</p></a
+                    >
+                  </div>
+                </div>
+              </div>
+             </div>
             </li>
           </ul>
         </nav>
@@ -927,6 +964,18 @@
         } else {
           bolsa.style.display = "none";
           flog = true;
+        }
+      });
+      let buy = document.querySelector("div.menu>nav>ul>li:nth-last-of-type(1)");
+      let compra = document.querySelector("div.compra");
+      let flig = true;
+      buy.addEventListener("click", function () {
+        if (flig === true) {
+          compra.style.display = "block";
+          flig = false;
+        } else {
+          compra.style.display = "none";
+          flig = true;
         }
       });
     </script>
