@@ -115,6 +115,7 @@ body {
                 body > div.wrapper > div.menu > nav > ul > li:nth-last-of-type(1) > div.buy > a > img:hover {
                   filter: brightness(100%); }
             body > div.wrapper > div.menu > nav > ul > li:nth-last-of-type(1) > div.buy div.compra {
+              display: none;
               width: 250px;
               height: 300px;
               background-color: #fff;
@@ -761,6 +762,7 @@ body {
             body > div.wrapper > div.menu > nav > ul > li:nth-last-of-type(1) > div.buy div.compra {
               width: 250px;
               height: 300px;
+              display: none;
               background-color: #fff;
               position: absolute;
               top: 44px;
@@ -1409,6 +1411,7 @@ body {
             body > div.wrapper > div.menu > nav > ul > li:nth-last-of-type(1) > div.buy div.compra {
               width: 250px;
               height: 300px;
+              display: none;
               background-color: #fff;
               position: absolute;
               top: 44px;
