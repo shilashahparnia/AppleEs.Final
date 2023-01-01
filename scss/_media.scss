@@ -2627,7 +2627,7 @@ $sm: 576px;
             > div.grip {
               position: relative;
               > div.subMenu {
-                width: calc(101vw - 25px);
+                width: 100vw;
                 height: 500px;
                 background-color: black;
                 position: absolute;
@@ -2673,10 +2673,10 @@ $sm: 576px;
                     width: 100%;
                     height: inherit;
                     > li {
-                      width: 100%;
+                      width: auto;
                       height: inherit;
                       > a {
-                        width: 100%;
+                        width: auto;
                         height: inherit;
                         display: block;
                         line-height: 40px;
@@ -3525,7 +3525,7 @@ $sm: 576px;
             > div.grip {
               position: relative;
               > div.subMenu {
-                width: calc(101vw - 24px);
+                width: calc(101vw - 10px);
                 height: 500px;
                 background-color: black;
                 position: absolute;
@@ -4420,7 +4420,7 @@ $sm: 576px;
             > div.grip {
               position: relative;
               > div.subMenu {
-                width: calc(100vw - 17px);
+                width: 101vw;
                 height: 500px;
                 background-color: black;
                 position: absolute;
