@@ -834,6 +834,13 @@ $sm: 576px;
               > p:nth-of-type(1) {
                 color: $Footer;
                 font-size: 13px;
+                >a{
+                  color: $Azul;
+                  transition: 200ms;
+                  &:hover{
+                    text-decoration: underline;
+                  }
+                }
               }
               > p:nth-of-type(2) {
                 color: black;
@@ -1691,6 +1698,13 @@ $sm: 576px;
               > p:nth-of-type(1) {
                 color: $Footer;
                 font-size: 13px;
+                >a{
+                  color: $Azul;
+                  transition: 200ms;
+                  &:hover{
+                    text-decoration: underline;
+                  }
+                }
               }
               > p:nth-of-type(2) {
                 color: black;
@@ -2548,6 +2562,13 @@ $sm: 576px;
               > p:nth-of-type(1) {
                 color: $Footer;
                 font-size: 13px;
+                >a{
+                  color: $Azul;
+                  transition: 200ms;
+                  &:hover{
+                    text-decoration: underline;
+                  }
+                }
               }
               > p:nth-of-type(2) {
                 color: black;
@@ -3446,6 +3467,13 @@ $sm: 576px;
               > p:nth-of-type(1) {
                 color: $Footer;
                 font-size: 13px;
+                >a{
+                  color: $Azul;
+                  transition: 200ms;
+                  &:hover{
+                    text-decoration: underline;
+                  }
+                }
               }
               > p:nth-of-type(2) {
                 color: black;
@@ -4340,6 +4368,13 @@ $sm: 576px;
               > p:nth-of-type(1) {
                 color: $Footer;
                 font-size: 12px;
+                >a{
+                  color: $Azul;
+                  transition: 200ms;
+                  &:hover{
+                    text-decoration: underline;
+                  }
+                }
               }
               > p:nth-of-type(2) {
                 color: black;
@@ -5242,6 +5277,13 @@ $sm: 576px;
               > p:nth-of-type(1) {
                 color: $Footer;
                 font-size: 12px;
+                >a{
+                  color: $Azul;
+                  transition: 200ms;
+                  &:hover{
+                    text-decoration: underline;
+                  }
+                }
               }
               > p:nth-of-type(2) {
                 color: black;
