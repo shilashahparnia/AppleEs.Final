@@ -3,6 +3,7 @@ $xl: 1200px;
 $lg: 992px;
 $md: 768px;
 $sm: 576px;
+$xs: 375px;
 
 @mixin media($value) {
   @if $value==$xxl {
@@ -834,10 +835,10 @@ $sm: 576px;
               > p:nth-of-type(1) {
                 color: $Footer;
                 font-size: 13px;
-                >a{
+                > a {
                   color: $Azul;
                   transition: 200ms;
-                  &:hover{
+                  &:hover {
                     text-decoration: underline;
                   }
                 }
@@ -1698,10 +1699,10 @@ $sm: 576px;
               > p:nth-of-type(1) {
                 color: $Footer;
                 font-size: 13px;
-                >a{
+                > a {
                   color: $Azul;
                   transition: 200ms;
-                  &:hover{
+                  &:hover {
                     text-decoration: underline;
                   }
                 }
@@ -2562,10 +2563,10 @@ $sm: 576px;
               > p:nth-of-type(1) {
                 color: $Footer;
                 font-size: 13px;
-                >a{
+                > a {
                   color: $Azul;
                   transition: 200ms;
-                  &:hover{
+                  &:hover {
                     text-decoration: underline;
                   }
                 }
@@ -3467,10 +3468,10 @@ $sm: 576px;
               > p:nth-of-type(1) {
                 color: $Footer;
                 font-size: 13px;
-                >a{
+                > a {
                   color: $Azul;
                   transition: 200ms;
-                  &:hover{
+                  &:hover {
                     text-decoration: underline;
                   }
                 }
@@ -4368,10 +4369,10 @@ $sm: 576px;
               > p:nth-of-type(1) {
                 color: $Footer;
                 font-size: 12px;
-                >a{
+                > a {
                   color: $Azul;
                   transition: 200ms;
-                  &:hover{
+                  &:hover {
                     text-decoration: underline;
                   }
                 }
@@ -4401,8 +4402,8 @@ $sm: 576px;
         }
       }
     }
-  } @else {
-    @media screen and(max-width:575px) {
+  } @else if $value==$xs {
+    @media screen and (min-width: 375px) and (max-width: 576px) {
       body {
         > div.wrapper {
           width: 100%;
@@ -5277,10 +5278,919 @@ $sm: 576px;
               > p:nth-of-type(1) {
                 color: $Footer;
                 font-size: 12px;
-                >a{
+                > a {
                   color: $Azul;
                   transition: 200ms;
-                  &:hover{
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                }
+              }
+              > p:nth-of-type(2) {
+                color: black;
+                font-size: 12px;
+              }
+            }
+            > div:nth-of-type(3) {
+              flex-wrap: wrap;
+              > a {
+                color: black;
+                font-size: 12px;
+                transition: 200ms;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+              > span {
+                color: $Footer;
+                margin: 0 10px;
+              }
+            }
+          }
+          //end second footer
+        }
+      }
+    }
+  } @else {
+    @media screen and (max-width: 374px){
+      body {
+        > div.wrapper {
+          width: 100%;
+          //ignore menu
+          > div.menu {
+            display: none;
+          }
+          // make md, sm, xs menu
+          > div.sMenu {
+            width: 100%;
+            height: 44px;
+            background-color: #333333;
+            display: flex;
+            justify-content: space-between;
+            > div.grip,
+            > div.icon,
+            > div.shop {
+              width: 10%;
+              height: inherit;
+              display: flex;
+              justify-content: center;
+              > a {
+                width: inherit;
+                height: auto;
+                line-height: 44px;
+                color: $MenuColor;
+                display: block;
+                transition: 300ms;
+                &:hover {
+                  color: white;
+                }
+                > i.fa-grip-lines {
+                  font-size: 20px;
+                  line-height: 44px;
+                }
+              }
+            }
+            > div.icon,
+            > div.shop {
+              > img {
+                width: 15px;
+                height: auto;
+                filter: invert(30%);
+                transition: 300ms;
+                &:hover {
+                  filter: brightness(100%);
+                }
+              }
+            }
+            > div.grip {
+              position: relative;
+              > div.subMenu {
+                width: calc(100vw - 17px);
+                height: 500px;
+                background-color: black;
+                position: absolute;
+                left: 0;
+                top: 44px;
+                z-index: 3;
+                display: none;
+                > div.search {
+                  width: 90%;
+                  height: 40px;
+                  background-color: #333333;
+                  border-radius: 10px;
+                  margin: 20px auto;
+                  display: flex;
+                  justify-content: space-around;
+                  > i.fa-magnifying-glass {
+                    line-height: 40px;
+                    font-size: 15px;
+                    color: grey;
+                    margin-left: 10px;
+                  }
+                  > div.input {
+                    width: 90%;
+                    height: inherit;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    > input {
+                      width: 100%;
+                      height: 30px;
+                      border: unset;
+                      background-color: #333333;
+                      font-size: 16px;
+                      outline: none;
+                    }
+                  }
+                }
+                > nav {
+                  width: 90%;
+                  height: 40px;
+                  margin: 0 auto;
+                  > ul {
+                    width: 100%;
+                    height: inherit;
+                    > li {
+                      width: auto;
+                      height: inherit;
+                      > a {
+                        width: auto;
+                        height: inherit;
+                        display: block;
+                        line-height: 40px;
+                        color: $MenuColor;
+                        border-bottom: 0.5px solid $MenuColor;
+                        font-size: 18px;
+                        &:hover {
+                          color: white;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            > div.shop {
+              position: relative;
+              > div.bolsa {
+                width: calc(100vw - 20px);
+                height: 300px;
+                background-color: whitesmoke;
+                position: absolute;
+                right: 0;
+                top: 44px;
+                z-index: 4;
+                display: none;
+                > div.empty {
+                  width: 90%;
+                  height: 50px;
+                  margin: 10px auto;
+                  border-bottom: 0.5px solid $MenuColor;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  > p {
+                    color: grey;
+                  }
+                }
+                > div.azul {
+                  width: 90%;
+                  height: 270px;
+                  margin: 0 auto;
+                  display: flex;
+                  flex-flow: column wrap;
+                  gap: 5px;
+                  > div {
+                    width: 100%;
+                    height: 40px;
+                    border-bottom: 0.5px solid $MenuColor;
+                    > a {
+                      width: inherit;
+                      height: inherit;
+                      display: flex;
+                      gap: 10px;
+                      align-items: center;
+                      padding: 10px;
+                      > img {
+                        width: 30px;
+                      }
+                      > p {
+                        color: #0066cc;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          // end md,sm, xs menu
+          //make small products swiper
+          > div.products {
+            width: 100%;
+            height: 230px;
+            margin-top: 20px;
+            padding: 40px;
+            > div.mySwiper {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    display: block;
+                    color: black;
+                    transition: 300ms;
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                    > div:nth-of-type(1) {
+                      display: flex;
+                      justify-content: center;
+                      width: inherit;
+                      height: 100px;
+                      > img {
+                        width: 150px;
+                      }
+                    }
+                    > div:nth-of-type(2) {
+                      width: inherit;
+                      height: 30px;
+                      margin-top: 10px;
+                      > p {
+                        font-weight: bold;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end small products swiper
+          > div.title {
+            width: 88%;
+            height: 30px;
+            margin: 20px auto;
+            display: flex;
+            > h1:nth-last-of-type(1) {
+              color: grey;
+              padding-left: 10px;
+              font-size: 16px;
+            }
+            > h1:nth-of-type(1) {
+              font-size: 16px;
+            }
+          }
+          //make new products//
+          > div.new {
+            width: 90%;
+            height: 300px;
+            margin: 0 auto;
+            padding: 5px;
+            margin-bottom: 10px;
+            > div.shila {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  > a {
+                    width: inherit;
+                    height: auto;
+                    > div {
+                      width: inherit;
+                      height: inherit;
+                      position: relative;
+                      transition: 300ms;
+                      &:hover {
+                        position: absolute;
+                        top: 3px;
+                        left: 3px;
+                      }
+                      > img {
+                        border-radius: $Radius;
+                      }
+                      > div.text {
+                        width: inherit;
+                        height: 100px;
+                        position: absolute;
+                        top: 0;
+                        > h4 {
+                          @include infoData(left, 10px, 10px, black);
+                          text-transform: uppercase;
+                        }
+                        > h1 {
+                          @include infoData(left, 10px, 10px, black);
+                          font-size: 14px;
+                        }
+                        > h5 {
+                          @include infoData(left, 10px, 10px, black);
+                        }
+                        > h4.w {
+                          @include infoData(left, 10px, 10px, white);
+                          text-transform: uppercase;
+                        }
+                        > h1.w {
+                          @include infoData(left, 10px, 10px, white);
+                          font-size: 14px;
+                        }
+                        > h5.w {
+                          @include infoData(left, 10px, 10px, white);
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end new products
+          //make gift card
+          > div.gift {
+            width: 100%;
+            height: 500px;
+            background-image: url(../images/hero_endframe__8xosbwdvpaqe_large_2x.jpg);
+            background-position: center;
+            background-size: 1000px 500px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 20px;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column;
+              align-items: center;
+              > h1 {
+                color: white;
+                font-size: 20px;
+                margin-bottom: 20px;
+              }
+              > h2 {
+                color: white;
+                font-size: 16px;
+              }
+              > a {
+                color: $Azul;
+                margin-top: 20px;
+                font-size: 16px;
+                transition: 300ms;
+                &:hover {
+                  text-decoration: underline;
+                }
+                > i.fa-chevron-right {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+          //end gift card
+          //make iPad card
+          > div.ipad {
+            width: 100%;
+            height: 500px;
+            background-image: url(../images/hero_ipad__rh99l6c3yuyy_largetall_2x.jpg);
+            background-position: center;
+            background-size: 1000px 500px;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            cursor: pointer;
+            > div {
+              width: 50%;
+              height: 200px;
+              display: flex;
+              flex-flow: column wrap;
+              align-items: center;
+              gap: 5px;
+              > h1 {
+                font-size: 30px;
+              }
+              > h3 {
+                font-size: 16px;
+                font-weight: unset;
+              }
+              > div {
+                width: 210px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 12px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+          //end iPad card
+          //make watch card
+          div.watch {
+            width: 100%;
+            height: 500px;
+            cursor: pointer;
+            background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_large_2x.jpg);
+            background-size: 1000px 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-flow: column wrap;
+            gap: 5px;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 50px;
+            > div {
+              width: 90%;
+              height: 50px;
+            }
+            > div:nth-of-type(1) {
+              display: flex;
+              justify-content: center;
+              > img {
+                width: 200px;
+                height: auto;
+              }
+            }
+            > div:nth-of-type(2) {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              > h2 {
+                color: white;
+                font-size: 18px;
+              }
+            }
+            > div:nth-of-type(3) {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 15px;
+              > a {
+                color: $Azul;
+                font-size: 20px;
+                transition: 300ms;
+                font-size: 14px;
+                &:hover {
+                  text-decoration: underline;
+                }
+                > i.fa-chevron-right {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+          //end watch card
+          //make row products
+          > div.pros {
+            width: 100%;
+            height: 1200px;
+            cursor: pointer;
+            display: flex;
+            flex-flow: column;
+            > div {
+              width: inherit;
+              height: inherit;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large_2x.jpg);
+              background-position: center;
+              background-size: 800px 625px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 95%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large_2x.jpg);
+              background-position: center;
+              background-size: 800px 625px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 95%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > img {
+                  width: 30px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(2) {
+                h1 {
+                  font-size: 35px;
+                }
+              }
+              > div:nth-of-type(3) {
+                h3 {
+                  font-weight: unset;
+                }
+              }
+              > div:nth-of-type(4) {
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                    padding-left: 5px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products
+          //make row products2
+          > div.pros2 {
+            width: 100%;
+            height: 1000px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            > div {
+              width: inherit;
+              height: inherit;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_airpods_pro_avail__gaxggskofx6y_large_2x.jpg);
+              background-position: center;
+              background-size: 800px 625px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 95%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: white;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+              background-position: center;
+              background-size: 1000px 625px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 95%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > img {
+                  width: 150px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(2) {
+                h3 {
+                  font-weight: unset;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 30px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products2
+          //make row products3
+          > div.pros3 {
+            width: 100%;
+            height: 1000px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            > div {
+              width: inherit;
+              height: inherit;
+            }
+            > div:nth-of-type(1) {
+              background-image: url(../images/promo_macbookair__fywl7i82fueu_large_2x.png);
+              background-position: center;
+              background-size: 1000px 500px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 90%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                > h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                > h3 {
+                  color: black;
+                }
+                > img {
+                  width: 50px;
+                  height: auto;
+                }
+              }
+              > div:nth-of-type(3) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              background-image: url(../images/tile_homepod_mini__b73w4z3ljymu_large_2x.jpg);
+              background-position: center;
+              background-size: 700px 500px;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-start;
+              align-items: center;
+              padding: 50px;
+              gap: 5px;
+              > div {
+                width: 90%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              > div:nth-of-type(1) {
+                h1 {
+                  color: black;
+                }
+              }
+              > div:nth-of-type(2) {
+                display: flex;
+                gap: 20px;
+                > a {
+                  color: $Azul;
+                  font-size: 18px;
+                  transition: 300ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                  > i.fa-chevron-right {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          //end row products3
+          //make apple Tv swiper
+          > div.tv {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 30px;
+            > div.ShilaTv {
+              > div.swiper-wrapper {
+                > div.swiper-slide {
+                  position: relative;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  cursor: pointer;
+                  > img {
+                    width: 400px;
+                    height: 400px;
+                    object-fit: fill;
+                    object-position: center;
+                  }
+                  > div:nth-of-type(1) {
+                    width: 90px;
+                    height: 35px;
+                    background-color: #fff;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 30px;
+                    left: -50px;
+                    border-radius: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    > h3 {
+                      font-size: 14px;
+                    }
+                    > i.fa-circle-play {
+                      font-size: 20px;
+                    }
+                  }
+                  > div:nth-of-type(2) {
+                    width: 230px;
+                    height: 50px;
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 30px;
+                    left: 40px;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    > h3 {
+                      color: white;
+                      font-size: 14px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end apple Tv swiper
+          //ignore xxl xl lg  footer
+          > footer.big {
+            display: none;
+          }
+          //make md, sm, xs footer
+          > footer.small {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+            > nav {
+              width: inherit;
+              height: inherit;
+              > ul {
+                width: inherit;
+                height: inherit;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                > li {
+                  width: auto;
+                  height: inherit;
+                  border-bottom: 0.5px solid $MenuColor;
+                  cursor: pointer;
+                  display: flex;
+                  align-items: center;
+                  > a {
+                    color: $Footer;
+                    padding-left: 20px;
+                    font-size: 14px;
+                    transition: 200ms;
+                    &:hover {
+                      text-decoration: underline;
+                      color: black;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          //end md, sm, xs footer
+          //make second footer
+          > footer.big2 {
+            width: 95%;
+            height: 100px;
+            margin: 30px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            > div {
+              width: 100%;
+              height: inherit;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+            }
+            > div:nth-of-type(1) {
+              border-bottom: 0.5px solid $MenuColor;
+              > p {
+                color: $Footer;
+                font-size: 12px;
+                > a {
+                  color: $Azul;
+                  font-size: 12px;
+                  transition: 200ms;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                }
+              }
+            }
+            > div:nth-of-type(2) {
+              justify-content: space-between;
+              > p:nth-of-type(1) {
+                color: $Footer;
+                font-size: 12px;
+                > a {
+                  color: $Azul;
+                  transition: 200ms;
+                  &:hover {
                     text-decoration: underline;
                   }
                 }
