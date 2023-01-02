@@ -16,7 +16,9 @@ $xs: 480px;
             width: 100%;
             height: 44px;
             background-color: #333333;
-            position: relative;
+            position: fixed;
+            top: 0;
+            z-index: 3;
             > nav {
               width: inherit;
               height: inherit;
@@ -145,6 +147,7 @@ $xs: 480px;
             height: 230px;
             margin-top: 20px;
             padding: 40px;
+            z-index: 3;
             > div.mySwiper {
               > div.swiper-wrapper {
                 > div.swiper-slide {
@@ -877,6 +880,9 @@ $xs: 480px;
             width: 100%;
             height: 44px;
             background-color: #333333;
+            position: fixed;
+            top: 0;
+            z-index: 3;
             > nav {
               width: inherit;
               height: inherit;
@@ -1741,6 +1747,9 @@ $xs: 480px;
             width: 100%;
             height: 44px;
             background-color: #333333;
+            position: fixed;
+            top: 0;
+            z-index: 3;
             > nav {
               width: inherit;
               height: inherit;
@@ -2609,6 +2618,9 @@ $xs: 480px;
             width: 100%;
             height: 44px;
             background-color: #333333;
+            position: fixed;
+            top: 0;
+            z-index: 3;
             display: flex;
             justify-content: space-between;
             > div.grip,
@@ -3514,6 +3526,9 @@ $xs: 480px;
             width: 100%;
             height: 44px;
             background-color: #333333;
+            position: fixed;
+            top: 0;
+            z-index: 3;
             display: flex;
             justify-content: space-between;
             > div.grip,
@@ -4416,6 +4431,9 @@ $xs: 480px;
             width: 100%;
             height: 44px;
             background-color: #333333;
+            position: fixed;
+            top: 0;
+            z-index: 3;
             display: flex;
             justify-content: space-between;
             > div.grip,
@@ -5319,6 +5337,9 @@ $xs: 480px;
             width: 100%;
             height: 44px;
             background-color: #333333;
+            position: fixed;
+            top: 0;
+            z-index: 3;
             display: flex;
             justify-content: space-between;
             > div.grip,
